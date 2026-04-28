@@ -1,0 +1,83 @@
+C:\Users\kennette.rodriguez\Desktop\Pantalla\Pantalla\obj\Debug\Pantalla.csproj.AssemblyReference.cache
+C:\Users\kennette.rodriguez\Desktop\Pantalla\Pantalla\obj\Debug\Pantalla.csproj.SuggestedBindingRedirects.cache
+C:\Users\kennette.rodriguez\Desktop\Pantalla\Pantalla\obj\Debug\Pantalla.Properties.Resources.resources
+C:\Users\kennette.rodriguez\Desktop\Pantalla\Pantalla\obj\Debug\Pantalla.csproj.GenerateResource.cache
+C:\Users\kennette.rodriguez\Desktop\Pantalla\Pantalla\obj\Debug\Pantalla.csproj.CoreCompileInputs.cache
+C:\Users\kennette.rodriguez\Desktop\Pantalla\Pantalla\obj\Debug\Pantalla.Main.resources
+C:\Users\kennette.rodriguez\Desktop\Pantalla\Pantalla\bin\Debug\Pantalla.exe.config
+C:\Users\kennette.rodriguez\Desktop\Pantalla\Pantalla\bin\Debug\Pantalla.exe
+C:\Users\kennette.rodriguez\Desktop\Pantalla\Pantalla\bin\Debug\Pantalla.pdb
+C:\Users\kennette.rodriguez\Desktop\Pantalla\Pantalla\obj\Debug\Pantalla.exe
+C:\Users\kennette.rodriguez\Desktop\Pantalla\Pantalla\obj\Debug\Pantalla.pdb
+C:\Users\kennette.rodriguez\Documents\ILG\Aplicaciones\Pantalla Liberty\Pantalla\bin\Debug\Pantalla.exe.config
+C:\Users\kennette.rodriguez\Documents\ILG\Aplicaciones\Pantalla Liberty\Pantalla\bin\Debug\Pantalla.exe
+C:\Users\kennette.rodriguez\Documents\ILG\Aplicaciones\Pantalla Liberty\Pantalla\bin\Debug\Pantalla.pdb
+C:\Users\kennette.rodriguez\Documents\ILG\Aplicaciones\Pantalla Liberty\Pantalla\obj\Debug\Pantalla.csproj.AssemblyReference.cache
+C:\Users\kennette.rodriguez\Documents\ILG\Aplicaciones\Pantalla Liberty\Pantalla\obj\Debug\Pantalla.csproj.SuggestedBindingRedirects.cache
+C:\Users\kennette.rodriguez\Documents\ILG\Aplicaciones\Pantalla Liberty\Pantalla\obj\Debug\Pantalla.Main.resources
+C:\Users\kennette.rodriguez\Documents\ILG\Aplicaciones\Pantalla Liberty\Pantalla\obj\Debug\Pantalla.Properties.Resources.resources
+C:\Users\kennette.rodriguez\Documents\ILG\Aplicaciones\Pantalla Liberty\Pantalla\obj\Debug\Pantalla.csproj.GenerateResource.cache
+C:\Users\kennette.rodriguez\Documents\ILG\Aplicaciones\Pantalla Liberty\Pantalla\obj\Debug\Pantalla.csproj.CoreCompileInputs.cache
+C:\Users\kennette.rodriguez\Documents\ILG\Aplicaciones\Pantalla Liberty\Pantalla\obj\Debug\Pantalla.exe
+C:\Users\kennette.rodriguez\Documents\ILG\Aplicaciones\Pantalla Liberty\Pantalla\obj\Debug\Pantalla.pdb
+C:\Users\Casa\Documents\WMS\ImpresiónFiretech\Pantalla\bin\Debug\Pantalla.exe.config
+C:\Users\Casa\Documents\WMS\ImpresiónFiretech\Pantalla\bin\Debug\Pantalla.exe
+C:\Users\Casa\Documents\WMS\ImpresiónFiretech\Pantalla\bin\Debug\Pantalla.pdb
+C:\Users\Casa\Documents\WMS\ImpresiónFiretech\Pantalla\obj\Debug\Pantalla.csproj.AssemblyReference.cache
+C:\Users\Casa\Documents\WMS\ImpresiónFiretech\Pantalla\obj\Debug\Pantalla.Main.resources
+C:\Users\Casa\Documents\WMS\ImpresiónFiretech\Pantalla\obj\Debug\Pantalla.Properties.Resources.resources
+C:\Users\Casa\Documents\WMS\ImpresiónFiretech\Pantalla\obj\Debug\Pantalla.csproj.GenerateResource.cache
+C:\Users\Casa\Documents\WMS\ImpresiónFiretech\Pantalla\obj\Debug\Pantalla.csproj.CoreCompileInputs.cache
+C:\Users\Casa\Documents\WMS\ImpresiónFiretech\Pantalla\obj\Debug\Pantalla.exe
+C:\Users\Casa\Documents\WMS\ImpresiónFiretech\Pantalla\obj\Debug\Pantalla.pdb
+C:\Users\kennette.rodriguez\Desktop\ImpresiónFiretech\Pantalla\obj\Debug\Pantalla.csproj.AssemblyReference.cache
+C:\Users\kennette.rodriguez\Desktop\ImpresiónFiretech\Pantalla\obj\Debug\Pantalla.csproj.SuggestedBindingRedirects.cache
+C:\Users\kennette.rodriguez\Desktop\ImpresiónFiretech\Pantalla\obj\Debug\Pantalla.Main.resources
+C:\Users\kennette.rodriguez\Desktop\ImpresiónFiretech\Pantalla\obj\Debug\Pantalla.Properties.Resources.resources
+C:\Users\kennette.rodriguez\Desktop\ImpresiónFiretech\Pantalla\obj\Debug\Pantalla.csproj.GenerateResource.cache
+C:\Users\kennette.rodriguez\Desktop\ImpresiónFiretech\Pantalla\obj\Debug\Pantalla.csproj.CoreCompileInputs.cache
+C:\Users\kennette.rodriguez\Desktop\ImpresiónFiretech\Pantalla\obj\Debug\Pantalla.exe
+C:\Users\kennette.rodriguez\Desktop\ImpresiónFiretech\Pantalla\obj\Debug\Pantalla.pdb
+C:\Users\kennette.rodriguez\Desktop\ImpresiónFiretech\Pantalla\bin\Debug\Pantalla.exe.config
+C:\Users\kennette.rodriguez\Desktop\ImpresiónFiretech\Pantalla\bin\Debug\Pantalla.exe
+C:\Users\kennette.rodriguez\Desktop\ImpresiónFiretech\Pantalla\bin\Debug\Pantalla.pdb
+C:\Users\Casa\Desktop\ImpresiónFiretech\Pantalla\bin\Debug\Pantalla.exe.config
+C:\Users\Casa\Desktop\ImpresiónFiretech\Pantalla\bin\Debug\Pantalla.exe
+C:\Users\Casa\Desktop\ImpresiónFiretech\Pantalla\bin\Debug\Pantalla.pdb
+C:\Users\Casa\Desktop\ImpresiónFiretech\Pantalla\obj\Debug\Pantalla.csproj.AssemblyReference.cache
+C:\Users\Casa\Desktop\ImpresiónFiretech\Pantalla\obj\Debug\Pantalla.Main.resources
+C:\Users\Casa\Desktop\ImpresiónFiretech\Pantalla\obj\Debug\Pantalla.Properties.Resources.resources
+C:\Users\Casa\Desktop\ImpresiónFiretech\Pantalla\obj\Debug\Pantalla.csproj.GenerateResource.cache
+C:\Users\Casa\Desktop\ImpresiónFiretech\Pantalla\obj\Debug\Pantalla.csproj.CoreCompileInputs.cache
+C:\Users\Casa\Desktop\ImpresiónFiretech\Pantalla\obj\Debug\Pantalla.exe
+C:\Users\Casa\Desktop\ImpresiónFiretech\Pantalla\obj\Debug\Pantalla.pdb
+D:\WMS\ImpresiónFiretech\Pantalla\bin\Debug\Pantalla.exe.config
+D:\WMS\ImpresiónFiretech\Pantalla\bin\Debug\Pantalla.exe
+D:\WMS\ImpresiónFiretech\Pantalla\bin\Debug\Pantalla.pdb
+D:\WMS\ImpresiónFiretech\Pantalla\obj\Debug\Pantalla.csproj.AssemblyReference.cache
+D:\WMS\ImpresiónFiretech\Pantalla\obj\Debug\Pantalla.Main.resources
+D:\WMS\ImpresiónFiretech\Pantalla\obj\Debug\Pantalla.Properties.Resources.resources
+D:\WMS\ImpresiónFiretech\Pantalla\obj\Debug\Pantalla.csproj.GenerateResource.cache
+D:\WMS\ImpresiónFiretech\Pantalla\obj\Debug\Pantalla.csproj.CoreCompileInputs.cache
+D:\WMS\ImpresiónFiretech\Pantalla\obj\Debug\Pantalla.exe
+D:\WMS\ImpresiónFiretech\Pantalla\obj\Debug\Pantalla.pdb
+C:\Users\kennette.rodriguez\OneDrive - Corporación ILG Internacional S.A\Escritorio\WMS\ImpresiónFiretech\Pantalla\bin\Debug\Pantalla.exe.config
+C:\Users\kennette.rodriguez\OneDrive - Corporación ILG Internacional S.A\Escritorio\WMS\ImpresiónFiretech\Pantalla\bin\Debug\Pantalla.exe
+C:\Users\kennette.rodriguez\OneDrive - Corporación ILG Internacional S.A\Escritorio\WMS\ImpresiónFiretech\Pantalla\bin\Debug\Pantalla.pdb
+C:\Users\kennette.rodriguez\OneDrive - Corporación ILG Internacional S.A\Escritorio\WMS\ImpresiónFiretech\Pantalla\obj\Debug\Pantalla.csproj.AssemblyReference.cache
+C:\Users\kennette.rodriguez\OneDrive - Corporación ILG Internacional S.A\Escritorio\WMS\ImpresiónFiretech\Pantalla\obj\Debug\Pantalla.Main.resources
+C:\Users\kennette.rodriguez\OneDrive - Corporación ILG Internacional S.A\Escritorio\WMS\ImpresiónFiretech\Pantalla\obj\Debug\Pantalla.Properties.Resources.resources
+C:\Users\kennette.rodriguez\OneDrive - Corporación ILG Internacional S.A\Escritorio\WMS\ImpresiónFiretech\Pantalla\obj\Debug\Pantalla.csproj.GenerateResource.cache
+C:\Users\kennette.rodriguez\OneDrive - Corporación ILG Internacional S.A\Escritorio\WMS\ImpresiónFiretech\Pantalla\obj\Debug\Pantalla.csproj.CoreCompileInputs.cache
+C:\Users\kennette.rodriguez\OneDrive - Corporación ILG Internacional S.A\Escritorio\WMS\ImpresiónFiretech\Pantalla\obj\Debug\Pantalla.exe
+C:\Users\kennette.rodriguez\OneDrive - Corporación ILG Internacional S.A\Escritorio\WMS\ImpresiónFiretech\Pantalla\obj\Debug\Pantalla.pdb
+C:\Users\kennette.rodriguez\OneDrive - Corporación ILG Internacional S.A\Documents\WMS\ImpresiónFiretech\Pantalla\bin\Debug\Pantalla.exe.config
+C:\Users\kennette.rodriguez\OneDrive - Corporación ILG Internacional S.A\Documents\WMS\ImpresiónFiretech\Pantalla\bin\Debug\Pantalla.exe
+C:\Users\kennette.rodriguez\OneDrive - Corporación ILG Internacional S.A\Documents\WMS\ImpresiónFiretech\Pantalla\bin\Debug\Pantalla.pdb
+C:\Users\kennette.rodriguez\OneDrive - Corporación ILG Internacional S.A\Documents\WMS\ImpresiónFiretech\Pantalla\obj\Debug\Pantalla.csproj.AssemblyReference.cache
+C:\Users\kennette.rodriguez\OneDrive - Corporación ILG Internacional S.A\Documents\WMS\ImpresiónFiretech\Pantalla\obj\Debug\Pantalla.Main.resources
+C:\Users\kennette.rodriguez\OneDrive - Corporación ILG Internacional S.A\Documents\WMS\ImpresiónFiretech\Pantalla\obj\Debug\Pantalla.Properties.Resources.resources
+C:\Users\kennette.rodriguez\OneDrive - Corporación ILG Internacional S.A\Documents\WMS\ImpresiónFiretech\Pantalla\obj\Debug\Pantalla.csproj.GenerateResource.cache
+C:\Users\kennette.rodriguez\OneDrive - Corporación ILG Internacional S.A\Documents\WMS\ImpresiónFiretech\Pantalla\obj\Debug\Pantalla.csproj.CoreCompileInputs.cache
+C:\Users\kennette.rodriguez\OneDrive - Corporación ILG Internacional S.A\Documents\WMS\ImpresiónFiretech\Pantalla\obj\Debug\Pantalla.exe
+C:\Users\kennette.rodriguez\OneDrive - Corporación ILG Internacional S.A\Documents\WMS\ImpresiónFiretech\Pantalla\obj\Debug\Pantalla.pdb

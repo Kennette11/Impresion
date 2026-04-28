@@ -1,0 +1,2239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<main>
+
+  <etiqueta id="ContenedorDP_DIPO">
+    <texto>
+      &lt;xpml&gt;&lt;page quantity=&apos;0&apos; pitch=&apos;50.8 mm&apos;&gt;&lt;/xpml&gt;&apos;Seagull:2.1:DP
+      INPUT OFF
+      VERBOFF
+      INPUT ON
+      SYSVAR(48) = 0
+      ERROR 15,&quot;FONT NOT FOUND&quot;
+      ERROR 18,&quot;DISK FULL&quot;
+      ERROR 26,&quot;PARAMETER TOO LARGE&quot;
+      ERROR 27,&quot;PARAMETER TOO SMALL&quot;
+      ERROR 37,&quot;CUTTER DEVICE NOT FOUND&quot;
+      ERROR 1003,&quot;FIELD OUT OF LABEL&quot;
+      SYSVAR(35)=0
+      OPEN &quot;tmp:setup.sys&quot; FOR OUTPUT AS #1
+      PRINT#1,&quot;Printing,Media,Print Area,Media Margin (X),0&quot;
+      PRINT#1,&quot;Printing,Media,Clip Default,On&quot;
+      CLOSE #1
+      SETUP &quot;tmp:setup.sys&quot;
+      KILL &quot;tmp:setup.sys&quot;
+      &lt;xpml&gt;&lt;/page&gt;&lt;/xpml&gt;&lt;xpml&gt;&lt;page quantity=&apos;1&apos; pitch=&apos;50.8 mm&apos;&gt;&lt;/xpml&gt;CLL
+      OPTIMIZE &quot;BATCH&quot; ON
+      PP11,393:DIR2
+      PL140,3
+      PP13,393:DIR1
+      PL787,3
+      PP13,253:PL787,3
+      PP798,393:DIR2
+      PL139,3
+      PP13,354:DIR1
+      PL787,3
+      PP13,304:PL787,3
+      PP26,396:AN7
+      NASC 8
+      FT &quot;CG Times Bold&quot;
+      FONTSIZE 10
+      FONTSLANT 0
+      PT &quot;Ruta&quot;
+      PP26,295:PT &quot;pCLIENTE&quot;
+      PP151,393:AN1
+      DIR2
+      PL38,3
+      PP178,396:AN7
+      DIR1
+      PT &quot;pDESTINO&quot;
+      PP608,393:AN1
+      DIR2
+      PL140,3
+      PP634,392:AN7
+      DIR1
+      PT &quot;pPEDIDO&quot;
+      PP25,346:PT &quot;pIDCLIENTE&quot;
+      PP49,245:BARSET &quot;CODE128B&quot;,2,1,4,79
+      PB &quot;pIDCONTENEDOR&quot;
+      PP281,166:PT &quot;pIDCONTENEDOR&quot;
+      PP38,101:AN1
+      PL495,3
+      PP531,101:DIR2
+      PL76,3
+      PP38,25:DIR1
+      PL495,3
+      PP37,102:DIR2
+      PL76,3
+      PP38,63:DIR1
+      PL495,3
+      PP125,101:DIR2
+      PL76,3
+      PP252,101:PL76,3
+      PP354,101:PL76,3
+      PP455,101:PL76,3
+      PP53,99:AN7
+      DIR1
+      FONTSIZE 8
+      PT &quot;FRIO&quot;
+      PP141,99:PT &quot;GILLETE&quot;
+      PP272,99:PT &quot;CAJAS&quot;
+      PP363,99:PT &quot;GLAXO&quot;
+      PP468,99:PT &quot;UDS&quot;
+      PP633,101:AN1
+      DIR2
+      PL76,3
+      PP634,25:DIR1
+      PL152,3
+      PP785,102:DIR2
+      PL76,3
+      PP634,101:DIR1
+      PL152,3
+      PP634,134:AN7
+      PT &quot;Bultos + Cajas&quot;
+      PP636,351:FONTSIZE 10
+      PT &quot;pFECHA&quot;
+      PP50,62:FONTSIZE 8
+      PT &quot;pFRI&quot;
+      PP167,62:PT &quot;pGIL&quot;
+      PP276,62:PT &quot;pCAJ&quot;
+      PP375,62:PT &quot;pGLA&quot;
+      PP463,62:PT &quot;pUNI&quot;
+      PP638,302:FONTSIZE 10
+      PT &quot;pCONT&quot;
+      PP475,392:AN1
+      DIR2
+      PL38,3
+      PP490,396:AN7
+      DIR1
+      PT &quot;pVOICE&quot;
+      LAYOUT RUN &quot;&quot;
+      PF
+      PRINT KEY OFF
+      &lt;xpml&gt;&lt;/page&gt;&lt;/xpml&gt;&lt;xpml&gt;&lt;end/&gt;&lt;/xpml&gt;
+    </texto>
+  </etiqueta>
+  <etiqueta id="MultiArticuloIPL">
+    <texto>
+      &lt;STX&gt;R&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;C&lt;SI&gt;W749&lt;SI&gt;h&lt;SI&gt;I3&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;P;F*&lt;ETX&gt;
+      &lt;STX&gt;H1;f3;o39,707;c61;b0;k5;d3,eStock&lt;ETX&gt;
+      &lt;STX&gt;B2;f3;o291,144;c7,0,2;w5;h160;d3,CODIGOBARRAS&lt;ETX&gt;
+      &lt;STX&gt;H3;f3;o132,189;c61;b0;k10;d3,BARRAB&lt;ETX&gt;
+      &lt;STX&gt;H4;f3;o132,224;c61;b0;k10;d3,BARRAC&lt;ETX&gt;
+      &lt;STX&gt;H5;f3;o132,259;c61;b0;k10;d3,BARRAD&lt;ETX&gt;
+      &lt;STX&gt;H6;f3;o132,294;c61;b0;k10;d3,BARRAE&lt;ETX&gt;
+      &lt;STX&gt;H7;f3;o132,329;c61;b0;k10;d3,BARRAF&lt;ETX&gt;
+      &lt;STX&gt;H8;f3;o132,364;c61;b0;k10;d3,BARRAG&lt;ETX&gt;
+      &lt;STX&gt;H9;f3;o132,424;c61;b0;k10;d3,BARRAH&lt;ETX&gt;
+      &lt;STX&gt;H10;f3;o132,459;c61;b0;k10;d3,BARRAI&lt;ETX&gt;
+      &lt;STX&gt;H11;f3;o132,494;c61;b0;k10;d3,BARRAJ&lt;ETX&gt;
+      &lt;STX&gt;H12;f3;o132,529;c61;b0;k10;d3,BARRAK&lt;ETX&gt;
+      &lt;STX&gt;H13;f3;o132,564;c61;b0;k10;d3,BARRAL&lt;ETX&gt;
+      &lt;STX&gt;H14;f3;o132,599;c61;b0;k10;d3,BARRAM&lt;ETX&gt;
+      &lt;STX&gt;H15;f3;o132,129;c61;b0;k10;d3,BARRAA&lt;ETX&gt;
+      &lt;STX&gt;H16;f3;o376,20;c61;b0;k6;d3,pTIPOETIQUETA&lt;ETX&gt;
+      &lt;STX&gt;D0&lt;ETX&gt;
+      &lt;STX&gt;R&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;E*,1&lt;CAN&gt;&lt;ETX&gt;
+      &lt;STX&gt;&lt;RS&gt;1&lt;US&gt;1&lt;ETB&gt;&lt;ETX&gt;
+    </texto>
+  </etiqueta>
+
+  <etiqueta id="ToteIPL">
+    <texto>
+      &lt;STX&gt;R&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;C&lt;SI&gt;W749&lt;SI&gt;h&lt;SI&gt;I3&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;P;F*&lt;ETX&gt;
+      &lt;STX&gt;H1;f3;o39,707;c61;b0;k5;d3,eStock&lt;ETX&gt;
+      &lt;STX&gt;B2;f3;o291,144;c7,0,2;w5;h160;d3,CODIGOBARRAS&lt;ETX&gt;
+      &lt;STX&gt;H3;f3;o132,189;c61;b0;k10;d3,BARRAB&lt;ETX&gt;
+      &lt;STX&gt;H4;f3;o132,224;c61;b0;k10;d3,BARRAC&lt;ETX&gt;
+      &lt;STX&gt;H5;f3;o132,259;c61;b0;k10;d3,BARRAD&lt;ETX&gt;
+      &lt;STX&gt;H6;f3;o132,294;c61;b0;k10;d3,BARRAE&lt;ETX&gt;
+      &lt;STX&gt;H7;f3;o132,329;c61;b0;k10;d3,BARRAF&lt;ETX&gt;
+      &lt;STX&gt;H8;f3;o132,364;c61;b0;k10;d3,BARRAG&lt;ETX&gt;
+      &lt;STX&gt;H9;f3;o132,424;c61;b0;k10;d3,BARRAH&lt;ETX&gt;
+      &lt;STX&gt;H10;f3;o132,459;c61;b0;k10;d3,BARRAI&lt;ETX&gt;
+      &lt;STX&gt;H11;f3;o132,494;c61;b0;k10;d3,BARRAJ&lt;ETX&gt;
+      &lt;STX&gt;H12;f3;o132,529;c61;b0;k10;d3,BARRAK&lt;ETX&gt;
+      &lt;STX&gt;H13;f3;o132,564;c61;b0;k10;d3,BARRAL&lt;ETX&gt;
+      &lt;STX&gt;H14;f3;o132,599;c61;b0;k10;d3,BARRAM&lt;ETX&gt;
+      &lt;STX&gt;H15;f3;o132,129;c61;b0;k10;d3,BARRAA&lt;ETX&gt;
+      &lt;STX&gt;H16;f3;o376,20;c61;b0;k6;d3,pTIPOETIQUETA&lt;ETX&gt;
+      &lt;STX&gt;D0&lt;ETX&gt;
+      &lt;STX&gt;R&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;E*,1&lt;CAN&gt;&lt;ETX&gt;
+      &lt;STX&gt;&lt;RS&gt;1&lt;US&gt;1&lt;ETB&gt;&lt;ETX&gt;
+    </texto>
+  </etiqueta>
+  <etiqueta id="ContenedorTiendaCrossIPL">
+    <texto>
+      &lt;STX&gt;R&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;C&lt;SI&gt;W749&lt;SI&gt;h&lt;SI&gt;I3&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;P;F*&lt;ETX&gt;
+      &lt;STX&gt;H1;f3;o39,707;c61;b0;k5;d3,eStock&lt;ETX&gt;
+      &lt;STX&gt;B2;f3;o291,144;c7,0,2;w5;h160;d3,CODIGOBARRAS&lt;ETX&gt;
+      &lt;STX&gt;H3;f3;o132,189;c61;b0;k10;d3,BARRAB&lt;ETX&gt;
+      &lt;STX&gt;H4;f3;o132,224;c61;b0;k10;d3,BARRAC&lt;ETX&gt;
+      &lt;STX&gt;H5;f3;o132,259;c61;b0;k10;d3,BARRAD&lt;ETX&gt;
+      &lt;STX&gt;H6;f3;o132,294;c61;b0;k10;d3,BARRAE&lt;ETX&gt;
+      &lt;STX&gt;H7;f3;o132,329;c61;b0;k10;d3,BARRAF&lt;ETX&gt;
+      &lt;STX&gt;H8;f3;o132,364;c61;b0;k10;d3,BARRAG&lt;ETX&gt;
+      &lt;STX&gt;H9;f3;o132,424;c61;b0;k10;d3,BARRAH&lt;ETX&gt;
+      &lt;STX&gt;H10;f3;o132,459;c61;b0;k10;d3,BARRAI&lt;ETX&gt;
+      &lt;STX&gt;H11;f3;o132,494;c61;b0;k10;d3,BARRAJ&lt;ETX&gt;
+      &lt;STX&gt;H12;f3;o132,529;c61;b0;k10;d3,BARRAK&lt;ETX&gt;
+      &lt;STX&gt;H13;f3;o132,564;c61;b0;k10;d3,BARRAL&lt;ETX&gt;
+      &lt;STX&gt;H14;f3;o132,599;c61;b0;k10;d3,BARRAM&lt;ETX&gt;
+      &lt;STX&gt;H15;f3;o132,129;c61;b0;k10;d3,BARRAA&lt;ETX&gt;
+      &lt;STX&gt;H16;f3;o376,20;c61;b0;k6;d3,pTIPOETIQUETA&lt;ETX&gt;
+      &lt;STX&gt;D0&lt;ETX&gt;
+      &lt;STX&gt;R&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;E*,1&lt;CAN&gt;&lt;ETX&gt;
+      &lt;STX&gt;&lt;RS&gt;1&lt;US&gt;1&lt;ETB&gt;&lt;ETX&gt;
+    </texto>
+  </etiqueta>
+  <etiqueta id="ArticuloEanIPL">
+    <texto>
+      &lt;STX&gt;R&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;C&lt;SI&gt;W768&lt;SI&gt;h&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;P&lt;ETX&gt;
+      &lt;STX&gt;F*&lt;ETX&gt;
+      &lt;STX&gt;B1;f3;o196,23;c0,3;w3;h119;r0;d3,220000000000&lt;ETX&gt;
+      &lt;STX&gt;H2;f3;o75,305;c26;b0;h12;w12;d3,220000000000&lt;ETX&gt;
+      &lt;STX&gt;H3;f3;o41,715;c61;b0;h12;w7;d3,eStock&lt;ETX&gt;
+      &lt;STX&gt;W4;f0;o244,38;h732;l132;w2&lt;ETX&gt;
+      &lt;STX&gt;H5;f3;o351,47;c61;b0;h14;w16;d3,DESCRIPCION&lt;ETX&gt;
+      &lt;STX&gt;L6;f1;o310,769;l730;w2&lt;ETX&gt;
+      &lt;STX&gt;H7;f3;o273,44;c61;b0;h12;w12;d3,EAN:&lt;ETX&gt;
+      &lt;STX&gt;H8;f3;o274,108;c61;b0;h13;w13;d3,pEAN&lt;ETX&gt;
+      &lt;STX&gt;L9;f1;o278,767;l727;w2&lt;ETX&gt;
+      &lt;STX&gt;L10;f0;o247,355;l64;w2&lt;ETX&gt;
+      &lt;STX&gt;H11;f3;o306,108;c61;b0;h13;w13;d3,pIDARTICULO&lt;ETX&gt;
+      &lt;STX&gt;H12;f3;o305,44;c61;b0;h12;w12;d3,ART:&lt;ETX&gt;
+      &lt;STX&gt;H13;f3;o306,364;c61;b0;h11;w10;d3,Creado:&lt;ETX&gt;
+      &lt;STX&gt;H14;f3;o313,453;c61;b0;h13;w13;d3,pFECHA&lt;ETX&gt;
+      &lt;STX&gt;H15;f3;o377,44;c61;b0;h12;w12;d3,Articulo:&lt;ETX&gt;
+      &lt;STX&gt;H16;f3;o41,36;c61;b0;h12;w7;d3,pTIPOETIQUETA&lt;ETX&gt;
+      &lt;STX&gt;D0&lt;ETX&gt;
+      &lt;STX&gt;R&lt;ETX&gt;
+      &lt;STX&gt;&lt;SI&gt;l13&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;E*,1&lt;CAN&gt;&lt;ETX&gt;
+      &lt;STX&gt;&lt;RS&gt;1&lt;US&gt;1&lt;ETB&gt;&lt;ETX&gt;
+    </texto>
+  </etiqueta>
+
+  <etiqueta id="ArticuloEanIPL_MAQUILA">
+    <texto>
+      &lt;STX&gt;R&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;C&lt;SI&gt;W545&lt;SI&gt;h&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;P&lt;ETX&gt;
+      &lt;STX&gt;F*&lt;ETX&gt;
+      &lt;STX&gt;H1;f3;o40,12;c32;b0;h1;w1;d3,pTIPOETIQUETA&lt;ETX&gt;
+      &lt;STX&gt;H2;f3;o40,467;c32;b0;h1;w1;d3,eStock&lt;ETX&gt;
+      &lt;STX&gt;W3;f0;o204,11;h561;l186;w2&lt;ETX&gt;
+      &lt;STX&gt;L4;f1;o308,571;l559;w2&lt;ETX&gt;
+      &lt;STX&gt;L5;f1;o260,571;l559;w2&lt;ETX&gt;
+      &lt;STX&gt;H6;f3;o392,20;c61;b0;h14;w14;d3,Articulo:&lt;ETX&gt;
+      &lt;STX&gt;H7;f3;o351,24;c62;b0;h14;w16;d3,DESCRIPCION&lt;ETX&gt;
+      &lt;STX&gt;H8;f3;o296,20;c61;b0;h14;w14;d3,ART:&lt;ETX&gt;
+      &lt;STX&gt;H9;f3;o248,20;c61;b0;h14;w14;d3,Creado:&lt;ETX&gt;
+      &lt;STX&gt;H10;f3;o295,100;c62;b0;h14;w17;d3,pIDARTICULO&lt;ETX&gt;
+      &lt;STX&gt;H11;f3;o247,132;c62;b0;h14;w17;d3,pFECHA&lt;ETX&gt;
+      &lt;STX&gt;B12;f3;o197,165;c4,1,a,a;w2;h102;r0;d3,220000000000&lt;ETX&gt;
+      &lt;STX&gt;H13;f3;o98,204;c26;b0;h17;w17;d3,220000000000&lt;ETX&gt;
+      &lt;STX&gt;D0&lt;ETX&gt;
+      &lt;STX&gt;R&lt;ETX&gt;
+      &lt;STX&gt;&lt;SI&gt;l13&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;E*,1&lt;CAN&gt;&lt;ETX&gt;
+      &lt;STX&gt;&lt;RS&gt;1&lt;US&gt;1&lt;ETB&gt;&lt;ETX&gt;
+    </texto>
+  </etiqueta>
+  <etiqueta id="ArticuloEanZPL_MAQUILA">
+    <texto>
+      ^XA
+      ^FO50,203
+      ^BY2,2.7^B3N,N,119,N,N^FD220000000000^FS
+      ^FT210,346
+      ^CI0
+      ^A0N,23,32^FD220000000000^FS
+      ^FT515,379
+      ^A0N,23,20^FDeStock^FS
+      ^FO28,23
+      ^GB545,165,2^FS
+      ^FT37,75
+      ^A0N,28,26^FDDESCRIPCION^FS
+      ^FO29,87
+      ^GB545,0,2^FS
+      ^FT34,170
+      ^A0N,24,25^FDCreado:^FS
+      ^FT415,170
+      ^A0N,24,25^FDpValoresAdic^FS
+      ^FT115,170
+      ^A0N,24,25^FDpFECHA^FS
+      ^FO30,140
+      ^GB545,0,2^FS
+      ^FO410,140
+      ^GB0,47,2^FS
+      ^FT90,123
+      ^A0N,36,36^FDpIDARTICULO^FS
+      ^FT34,123
+      ^A0N,24,25^FDART:^FS
+      ^FT34,43
+      ^A0N,24,25^FDArticulo:^FS
+      ^FT26,379
+      ^A0N,24,28^FDEAN^FS
+      ^PQ1,0,1,Y
+      ^XZ
+    </texto>
+  </etiqueta>
+
+  <etiqueta id="QR_ARTICULO_PROMED">
+    <texto>
+      ^XA~TA000~JSN^LT0^MNW^MTT^PON^PMN^LH0,0^JMA^PR4,4~SD15^JUS^LRN^CI0^XZ
+      ~DG000.GRF,04480,028,
+      ,::::::::::::::gO01,gO02,gO0580,gO0280,gO0540,gO0HA0,gN01DC0,gN02AA0,gN05770,gN02AA8,gM01DHDC,gN0IA8,gM017H76,gM02AIA,gM01DID,gM02AIA80,gM0K7,gM0KA80,gL01DJDC0,gM0LA0,gL037K70,gL02AKA0,gL05DKD8,gL0MA8,gL0H757H754,gL0NA,gK01DLDC,gK02AMA,gK0O7,gK02AMA80,gK0ODC0,gK0OA80,gJ017N760,gJ02AOA0,gJ01DOD0,gJ02AOA8,gJ0Q54,,gI0151O14,gJ080,gI0140040H040H05,,gI0H5P15,gI0H8Q080,gI0H5H404040405540,gJ020,gH015H5N1I50,gI0I8,gH0I540H040H0J50,gK02,gG015I5M1J54,gH0K8M08080,gG015I540404045I54,gH02020,gG0L5L1K5,gH0K8N08,gG0L540H045K540,,Y0H1M5J1L540,gG0M8J080808080,g015K5H40415L50,g020202020,g0N5J1M50,g0N8K080H0808,Y015M50405M54,gG020H02,Y015N5H1O5,g0O8I080808080,Y0P505O5,g02020202020,X015O515O540,Y0Q8080H080H08,X015O545O540,,:::gL0A0,R05FDF01DFFC001DDC00D1I1F07DFDC1FDFC0,R02AIA0AIA802AHAH0A80H0A02AHA80AIA0,R07455415H5700540500700416075H5415I50,R020H02080H080A00280A80022020J080028,R050H051C001C1C001E0CD1155050I01C001C,R020H02080H08280H0A0A20022020J080H0A,R070H0714001430I060674046075540140H05,R02AIA0AIA8280H020A2008202AA80080H02,R05DHDC1DID8180H050C1918505FFC01C0H05,R02AHAH0IA80280H0A0A08202020J080H0A,R050I0140140340H060614706070I0140H06,R020J0800A0080H0A0A02202020J080H0A,R050I01C00501F003C0E07C05050I01C001D,R020J0800280A80280A02802020J080028,R070I0140030037H7H060300607I76157H70,R020J080H0800AA800A0080202AIA0AHA80,gK0140J010,,::::gQ01,gU02,gQ01,X0808A0I02080I080K0200882,S0H1H076757110441101H16004H405004H4,S020H0J20A00202080020H080M08,S0310051441A150700801H1H08405059148,S020H020220A0I0A082020H08080H08008,S010H0I63110400210110J0405046440,T0A202A20A0820802008020080H0H80208,W060Q010,W02,W06,,W01,,:::::::::::::::::::::::::::::^XA
+      ^MMT
+      ^PW812
+      ^LL0406
+      ^LS0
+      ^FT40,70^XG000.GRF,1,1^FS
+      ^FT530,400^BQN,2,8
+      ^FDMA,pCODIGOQR^FS
+      ^FT30,290^A0N,28,26^FH\^FDLOT&lt;pLOTE&gt;
+      ^FS
+      ^FT30,390^A0N,28,20^FH\^FDDESC&lt;pDESCRIP&gt;
+      ^FS
+      ^FT30,340^A0N,28,26^FH\^FDEXP&lt;pFECHACADUCIDAD&gt;
+      ^FS
+      ^FT30,240^A0N,28,26^FH\^FDCAT&lt;pCAT&gt;
+      ^FS
+      ^FT30,190^A0N,28,26^FH\^FDCIA&lt;pCIA&gt;
+      ^FS
+      ^PQ1,0,1,Y^XZ
+      ^XA^ID000.GRF^FS^XZ
+    </texto>
+  </etiqueta>
+
+  <etiqueta id="QR_ARTICULO_GENERAL">
+    <texto>
+      ^XA
+      ^FT40,70^XG000.GRF,1,1^FS
+      ^FT530,350^BQN,2,8
+      ^FDMA,pCODIGOQR^FS
+      ^FT30,290^A0N,30,30^FH\^FDpLOTE
+      ^FS
+      ^FT30,390^A0N,30,30^FH\^FDDESC&lt;pDESCRIP&gt;
+      ^FS
+      ^FT30,340^A0N,30,30^FH\^FDpFECHACADUCIDAD
+      ^FS
+      ^FT30,240^A0N,30,30^FH\^FDCAT&lt;pCAT&gt;
+      ^FS
+      ^FT30,190^A0N,30,30^FH\^FDCIA&lt;pCIA&gt;
+      ^FS
+      ^FT70,90^A0N,50,50^FH\^FDpTITULO
+      ^FS
+      ^PQ1,0,1,Y
+      ^XZ
+    </texto>
+  </etiqueta>
+
+  <etiqueta id="MultiArticuloZPL_EXP">
+    <texto>
+      ^XA
+      ^DFR:SSFMT000.ZPL^FS
+      ^FT697,382
+      ^CI0
+      ^A0N,17,23^FDeflow^FS
+      ^FO164,114
+      ^BY5^BEN,160,N,N^FDVAR1^FS
+      ^FT179,301
+      ^A0N,28,39^BARRAA^FS
+      ^FT214,301
+      ^A0N,28,39^BARRAB^FS
+      ^FT249,301
+      ^A0N,28,39^BARRAC^FS
+      ^FT284,301
+      ^A0N,28,39^BARRAD^FS
+      ^FT319,301
+      ^A0N,28,39^BARRAE^FS
+      ^FT354,301
+      ^A0N,28,39^BARRAF^FS
+      ^FT414,301
+      ^A0N,28,39^BARRAG^FS
+      ^FT449,301
+      ^A0N,28,39^BARRAH^FS
+      ^FT484,301
+      ^A0N,28,39^BARRAI^FS
+      ^FT519,301
+      ^A0N,28,39^BARRAJ^FS
+      ^FT554,301
+      ^A0N,28,39^BARRAK^FS
+      ^FT589,301
+      ^A0N,28,39^BARRAL^FS
+      ^FT119,301
+      ^A0N,28,39^BARRAM^FS
+      ^FT14,31
+      ^A0N,17,23^FDVAR2^FS
+      ^FT660,58
+      ^A0N,50,50^FDIEMSA^FS
+      ^XZ
+      ^XA
+      ^XFR:SSFMT000.ZPL^PQ1,0,1,Y
+      ^XZ
+      ^XA
+      ^IDR:SSFMT000.ZPL^XZ
+    </texto>
+  </etiqueta> 
+  <etiqueta id="MultiArticuloZPL">
+    <texto>
+      ^XA
+      ^FO80,120
+      ^BY3,2.7^B3N,N,180,N,N^FDVAR1^FS
+      ^FT238,354
+      ^CI0
+      ^A0N,39,54^FDVAR1^FS
+      ^FT38,31
+      ^A0N,17,23^FDVAR2^FS
+      ^FT722,378
+      ^A0N,20,28^FDeflow^FS
+      ^PQ1,0,1,Y
+      ^XZ
+    </texto>
+  </etiqueta>
+
+  <etiqueta id="MultiArticuloZPL_QR">
+    <texto>
+      ^XA
+      ^MMT
+      ^PW812
+      ^LL0406
+      ^LS0
+      ^FT78,383^A0B,73,79^FH\^FDeflow WMS^FS
+      ^FT661,382^A0N,25,24^FH\^FDVAR2^FS
+      ^FO97,19^GB0,368,3^FS
+      ^FT234,73^A0N,65,64^FH\^FDVAR1^FS
+      ^FT333,351^BQN,2,10
+      ^FDLA,VAR1^FS
+      ^PQ1,0,1,Y^XZ
+    </texto>
+  </etiqueta>
+  <etiqueta id="ToteZPL">
+    <texto>
+      ^XA
+      ^FT701,376
+      ^CI0
+      ^A0N,23,24^FDeflow^FS
+      ^FT14,120
+      ^A0N,26,34^FDFecha: pFECHA^FS
+      ^FT580,178
+      ^A0N,148,172^FDpRUTA^FS
+      ^FT14,53
+      ^A0N,38,32^FDpSUCURSAL^FS
+      ^FT14,376
+      ^A0N,23,24^FDpINDICE^FS
+      ^FT14,86
+      ^A0N,26,33^FDPedido #: pPEDIDO^FS
+      ^FO70,192
+      ^BY3,2.7^B3N,N,145,N,N^FDpCONTENEDOR^FS
+      ^FT275,365
+      ^A0N,28,39^FDpCONTENEDOR^FS
+      ^FO0,83
+      ^XGR:SSGFX000.GRF,1,1^FS
+      ^PQ1,0,1,Y
+      ^XZ
+      ^XA
+      ^IDR:SSGFX000.GRF^XZ
+    </texto>
+  </etiqueta>
+
+  <etiqueta id="EtiquetaIPL">
+    <texto>
+      &lt;STX&gt;R&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;C&lt;SI&gt;W748&lt;SI&gt;h&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;P&lt;ETX&gt; &lt;STX&gt;F*&lt;ETX&gt;
+      &lt;STX&gt;H1;f3;o50,722;c61;b0;h12;w9;d3,eFlow&lt;ETX&gt;
+      &lt;STX&gt;H8;f3;o50,9;c61;b0;h12;w7;d3,pFecha&lt;ETX&gt;
+      &lt;STX&gt;B12;f3;o270,190;c0,3;w3;h150;r5;d3,pEtiqueta&lt;ETX&gt;
+      &lt;STX&gt;H13;f3;o115,297;c26;b0;h14;w14;d3,pEtiqueta&lt;ETX&gt;
+      &lt;STX&gt;D0&lt;ETX&gt; &lt;STX&gt;R&lt;ETX&gt;
+      &lt;STX&gt;&lt;SI&gt;l13&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;E*,1&lt;CAN&gt;&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;g0&lt;ETX&gt;
+      &lt;STX&gt;!AþF‰&amp;‚Eþ"$&amp;"$…&lt;ETX&gt; &lt;STX&gt;(&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;g0&lt;ETX&gt;
+      &lt;STX&gt;!BžF‰&amp;"&amp;‚Eü"$&amp;"$„&lt;ETX&gt; &lt;STX&gt;(&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;g0&lt;ETX&gt;
+      &lt;STX&gt;!B¾F‰&amp;"$‚&amp;Eÿ"$&lt;ETX&gt; &lt;STX&gt;(&lt;ETX&gt;
+      &lt;STX&gt;&lt;RS&gt;1&lt;US&gt;1&lt;ETB&gt;&lt;ETX&gt;
+    </texto>
+  </etiqueta>
+
+  <etiqueta id="EtiquetaZPL">
+    <texto>
+      ^XA
+      ^DFR:SSFMT000.ZPL^FS
+      ^FO100,125
+      ^BY3,3^B3N,N,150,N,N^FDpEtiqueta^FS
+      ^FT300,320^CI0^A0N,40,40^FDpEtiqueta^FS
+      ^FT50,397^A0N,20,24^FDpFecha^FS
+      ^FT650,397^A0N,20,28^FDeflow^FS
+      ^XZ
+      ^XA
+      ^XFR:SSFMT000.ZPL^PQ1,0,1,Y
+      ^XZ
+      ^XA
+      ^IDR:SSFMT000.ZPL^XZ
+    </texto>
+  </etiqueta>
+  <etiqueta id="ContenedorTiendaCrossZPL">
+    <texto>
+      ^XA
+      ^DFR:SSFMT000.ZPL^FS
+      ^FT710,397
+      ^CI0
+      ^A0N,20,28^FDeflow^FS
+      ^FO164,114
+      ^BY5^BEN,160,N,N^FDVAR1^FS
+      ^FT179,301
+      ^A0N,28,39^BARRAA^FS
+      ^FT214,301
+      ^A0N,28,39^BARRAB^FS
+      ^FT249,301
+      ^A0N,28,39^BARRAC^FS
+      ^FT284,301
+      ^A0N,28,39^BARRAD^FS
+      ^FT319,301
+      ^A0N,28,39^BARRAE^FS
+      ^FT354,301
+      ^A0N,28,39^BARRAF^FS
+      ^FT414,301
+      ^A0N,28,39^BARRAG^FS
+      ^FT449,301
+      ^A0N,28,39^BARRAH^FS
+      ^FT484,301
+      ^A0N,28,39^BARRAI^FS
+      ^FT519,301
+      ^A0N,28,39^BARRAJ^FS
+      ^FT554,301
+      ^A0N,28,39^BARRAK^FS
+      ^FT589,301
+      ^A0N,28,39^BARRAL^FS
+      ^FT119,301
+      ^A0N,28,39^BARRAM^FS
+      ^FT50,100
+      ^A0N,40,50^FDVAR2^FS
+      ^FT20,397
+      ^A0N,20,28^FDpUSUARIO^FS
+      ^XZ
+      ^XA
+      ^XFR:SSFMT000.ZPL^PQ1,0,1,Y
+      ^XZ
+      ^XA
+      ^IDR:SSFMT000.ZPL^XZ
+    </texto>
+  </etiqueta>
+  <etiqueta id="UbicacionIPL">
+    <texto>
+      &lt;STX&gt;R&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;C&lt;SI&gt;W748&lt;SI&gt;h&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;P&lt;ETX&gt;
+      &lt;STX&gt;F*&lt;ETX&gt;
+      &lt;STX&gt;B1;f3;o265,85;c6;w4;h177;d3,BARRAS&lt;ETX&gt;
+      &lt;STX&gt;H2;f3;o364,148;c61;b0;h28;w28;d3,TEXTOBARRA&lt;ETX&gt;
+      &lt;STX&gt;H3;f3;o39,719;c61;b0;h9;w9;d3,eStock&lt;ETX&gt;
+      &lt;STX&gt;D0&lt;ETX&gt;
+      &lt;STX&gt;R&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;E*,1&lt;CAN&gt;&lt;ETX&gt;
+      &lt;STX&gt;&lt;RS&gt;1&lt;US&gt;1&lt;ETB&gt;&lt;ETX&gt;
+    </texto>
+  </etiqueta>
+
+  <etiqueta id="UbicacionZPL">
+    <texto>
+      ^XA^
+      ^BY3,3,200^FT150,320^BAN,,N,N
+      ^FDPUBICACION^FS
+      ^FT107,75^A0N,54,67^FH\^FD888888888888888^FS
+      ^FT695,398^A0N,25,21^FH\^FDeflow^FS
+      ^FT23,399^A0N,25,21^FH\^FDUbicacion^FS
+      ^PQ1,0,1,Y^XZ
+    </texto>
+  </etiqueta>
+
+  <etiqueta id="UbicacionZPL_QR">
+    <texto>
+      ^XA
+      ^MMT
+      ^PW812
+      ^LL0406
+      ^LS0
+      ^FT74,370^A0B,56,72^FH\^FDeflow WMS^FS
+      ^FO97,19^GB0,368,3^FS
+      ^FT137,70^A0N,65,64^FH\^FD888888888888888^FS
+      ^FT343,344^BQN,2,10
+      ^FDLA,888888888888888^FS
+      ^PQ1,0,1,Y^XZ
+    </texto>
+  </etiqueta>
+
+  <etiqueta id="UbicacionZPL_ANDRES">
+    <texto>
+      ^XA
+      ^FT107,75^A0N,54,67^FH\^FDTEXTOBARRA^FS
+      ^FO170,150
+      ^BY2,2.5^B3N,N,165,N,Y^FDBARRAS^FS
+      ^FT23,399^A0N,25,21^FH\^FDUbicacion^FS
+      ^FT695,398^A0N,25,21^FH\^FDeflow^FS
+      ^XZ
+    </texto>
+  </etiqueta>
+
+  <etiqueta id="UbicacionZPL_MIZRATEX">
+    <texto>
+      ^XA~TA000~JSN^LT0^MMT^MNW^MTT^PON^PMN^LH0,0^JMA^PR4,4^MD0^JUS^LRN^CI0^XZ
+      ^XA^LL0420
+      ^PW780
+      ^BY4,3,220^FT45,324^BAN,,N,N
+      ^FD999999999999999^FS
+      ^FT107,75^A0N,54,67^FH\^FD888888888888888^FS
+      ^FT695,398^A0N,25,21^FH\^FDeflow^FS
+      ^FT23,399^A0N,25,21^FH\^FDUbicacion^FS
+      ^PQ1,0,1,Y^XZ
+    </texto>
+  </etiqueta>
+
+  <etiqueta id="UbicacionZPL_MIZRATEX_bk">
+    <texto>
+      ^XA
+      ^FO100,130
+      ^BY5,2.7^B3R,N,193,N,Y^FD999999999999999^FS
+      ^FT350,185
+      ^CI0
+      ^A0R,115,145^FD888888888888888^FS
+
+      ^FT22,56
+      ^A0N,40,56^FDeFlow^FS
+      ^PQ1,0,1,Y
+      ^XZ
+    </texto>
+  </etiqueta>
+
+  <etiqueta id="ContenedorZPLUbicacionPelon">
+    <texto>
+
+      ^XA
+      ^FO35,100
+      ^BY4,2.2^B3N,N,253,N,Y^FDIDCONTENEDOR012^FS
+      ^CI0
+      ^FT335,386
+      ^A0N,20,28^FDIDCONTENEDOR012^FS
+      ^FT25,36
+      ^A0N,30,30^FDPROD: @CODIGO   @DESCRIPCION^FS
+      ^FT25,75
+      ^A0N,20,20^FDLOTE:   @LOTE  CADUCA:   @CADUCA   CONF:@CONF  UBICA: @UBICA^FS
+      ^FT705,386
+      ^A0N,20,28^FDeflow^FS
+      ^FT25,386
+      ^A0N,20,28^FD@NOW^FS
+      ^PQ1,0,1,Y
+      ^XZ
+    </texto>
+  </etiqueta>
+
+  <etiqueta id="Contenedor_PRODUCCION_4x2">
+    <texto>
+      ^XA
+      ^FO110,240
+      ^BY2,2.5^B3N,N,110,N,N^FDpCONTENEDOR^FS
+      ^FT155,394
+      ^CI0
+      ^A0N,39,54^FDpCONTENEDOR^FS
+      ^FO32,23
+      ^GB790,380,4^FS
+      ^FO32,87
+      ^GB778,0,2^FS
+      ^FO32,119
+      ^GB623,0,2^FS
+      ^FT45,80^A0N,45,45^FDpARTICULO^FS
+      ^FT38,111^A0N,23,30^FDART:^FS
+      ^FT135,111^A0N,23,30^FDpIDARTICULO^FS
+      ^FT360,111^A0N,23,30^FDCANT:^FS
+      ^FT490,111^A0N,23,30^FDpCANTIDAD^FS
+      ^FT38,388^A0N,23,20^FDpFECHA^FS
+      ^FT555,395^A0N,23,24^FDeFlow^FS
+      ^FO32,153
+      ^GB623,0,2^FS
+      ^FO32,188
+      ^GB623,0,2^FS
+      ^FO32,223
+      ^GB623,0,2^FS
+      ^FT38,144^A0N,23,30^FDUDxCJ:^FS
+      ^FT135,144^A0N,23,30^FDpFACTOR^FS
+      ^FT360,144^A0N,23,30^FDPESO:^FS
+      ^FT490,144^A0N,25,30^FDpPESO^FS
+      ^FO354,89
+      ^GB0,134,2^FS
+      ^FO653,88
+      ^GB0,315,2^FS
+      ^FT38,179^A0N,23,30^FDCONF:^FS
+      ^FT135,179^A0N,23,30^FDpCONFIRMACION^FS
+      ^FT360,179^A0N,23,30^FDENTRADA:^FS
+      ^FT490,179^A0N,23,30^FDpFECHAENTRADA^FS
+      ^FT38,214^A0N,23,30^FDLOTE:^FS
+      ^FT150,214^A0N,23,30^FDpLOTE^FS
+      ^FT360,214^A0N,23,30^FDCADUCA:^FS
+      ^FT490,214^A0N,23,30^FDpCADUCIDAD^FS
+      ^FT770,385^A0B,95,150^FDpFACT^FS
+      ^PQ1,0,1,Y
+      ^XZ
+    </texto>
+  </etiqueta>
+
+  <etiqueta id="Contenedor_PRODUCCION_4x2_QR">
+    <texto>
+      ^XA
+      ^MMT
+      ^PW812
+      ^LL0406
+      ^LS0
+      ^FT0,416^XG000.GRF,1,1^FS
+      ^FT411,199^A0N,23,24^FH\^FDCaduca:^FS
+      ^FT87,199^A0N,23,24^FH\^FDLote:^FS
+      ^FT87,163^A0N,23,24^FH\^FDConf:^FS
+      ^FT411,93^A0N,23,24^FH\^FDEntrada:^FS
+      ^FT517,199^A0N,23,24^FH\^FDpCADUCIDAD^FS
+      ^FT411,127^A0N,23,24^FH\^FDPeso:^FS
+      ^FT87,127^A0N,23,24^FH\^FDUDxCJ:^FS
+      ^FT153,199^A0N,23,24^FH\^FDpLOTE^FS
+      ^FT510,93^A0N,23,24^FH\^FDpFECHAENTRADA^FS
+      ^FT159,163^A0N,23,24^FH\^FDpCONFIRMACION^FS
+      ^FT489,127^A0N,23,24^FH\^FDpPESO^FS
+      ^FT486,163^A0N,23,24^FH\^FDpCANTIDAD^FS
+      ^FT181,127^A0N,23,24^FH\^FDpFACTOR^FS
+      ^FT411,163^A0N,23,24^FH\^FDCant:^FS
+      ^FT135,93^A0N,23,24^FH\^FDpIDARTICULO^FS
+      ^FO711,100^GB0,291,2^FS
+      ^FT87,93^A0N,23,24^FH\^FDArt:^FS
+      ^FT105,406^BQN,2,8
+      ^FDLA,pCONTENEDOR^FS
+      ^FO406,66^GB0,143,2^FS
+      ^FO81,206^GB632,0,2^FS
+      ^FT786,377^A0B,85,136^FH\^FDpFACT^FS
+      ^FO81,171^GB632,0,1^FS
+      ^FT66,346^A0B,61,64^FH\^FDeflow WMS^FS
+      ^FO81,100^GB721,0,2^FS
+      ^FO81,135^GB631,0,2^FS
+      ^FO81,64^GB721,0,2^FS
+      ^FO78,14^GB0,380,3^FS
+      ^FT92,53^A0N,38,38^FH\^FDpARTICULO^FS
+      ^FT302,315^A0N,50,60^FH\^FDpCONTENEDOR^FS
+      ^PQ1,0,1,Y^XZ
+    </texto>
+  </etiqueta>
+
+  <etiqueta id="ColumnaIPL">
+    <texto>
+      &lt;STX&gt;R&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;C&lt;SI&gt;W748&lt;SI&gt;h&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;P&lt;ETX&gt;
+      &lt;STX&gt;F*&lt;ETX&gt;
+      &lt;STX&gt;H1;f3;o39,719;c61;b0;h7;w7;d3,eStock&lt;ETX&gt;
+      &lt;STX&gt;H2;f3;o395,39;c61;b0;h145;w214;d3,NUMERO&lt;ETX&gt;
+      &lt;STX&gt;D0&lt;ETX&gt;
+      &lt;STX&gt;R&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;E*,1&lt;CAN&gt;&lt;ETX&gt;
+      &lt;STX&gt;&lt;RS&gt;1&lt;US&gt;1&lt;ETB&gt;&lt;ETX&gt;
+    </texto>
+  </etiqueta>
+  <etiqueta id="ColumnaZPL">
+    <texto>
+      ^XA
+      ^FT713,379
+      ^CI0
+      ^A0N,23,30^FDeflow^FS
+      ^FT66,299
+      ^A0N,338,465^FD001^FS
+      ^PQ1,0,1,Y
+      ^XZ
+    </texto>
+  </etiqueta>
+  <etiqueta id="RecursoIPL">
+    <texto>
+      &lt;STX&gt;R&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;C&lt;SI&gt;W748&lt;SI&gt;h&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;P&lt;ETX&gt;
+      &lt;STX&gt;F*&lt;ETX&gt;
+      &lt;STX&gt;H1;f3;o49,565;c61;b0;h10;w10;d3,eStock&lt;ETX&gt;
+      &lt;STX&gt;B2;f3;o316,174;c0,3;w5;h178;r0;d3,IDRECURSO&lt;ETX&gt;
+      &lt;STX&gt;H3;f3;o118,161;c61;b0;h23;w23;d3,IDRECURSO&lt;ETX&gt;
+      &lt;STX&gt;H4;f3;o118,288;c61;b0;h23;w17;d3,DESCRIPCION&lt;ETX&gt;
+      &lt;STX&gt;D0&lt;ETX&gt;
+      &lt;STX&gt;R&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;E*,1&lt;CAN&gt;&lt;ETX&gt;
+      &lt;STX&gt;&lt;RS&gt;1&lt;US&gt;1&lt;ETB&gt;&lt;ETX&gt;
+    </texto>
+  </etiqueta>
+  <etiqueta id="RecursoZPL">
+    <texto>
+      ^XA
+      ^FO146,56
+      ^BY3,2.7^B3N,N,173,N,N^FDIDRECURSO^FS
+      ^FT146,311
+      ^CI0
+      ^A0N,56,77^FDIDRECURSO^FS
+      ^FT705,371
+      ^A0N,23,30^FDeflow^FS
+      ^PQ1,0,1,Y
+      ^XZ
+    </texto>
+  </etiqueta>
+  <etiqueta id="ContenedorSerieIPL">
+    <texto>
+      &lt;STX&gt;R&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;C&lt;SI&gt;W768&lt;SI&gt;h&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;P&lt;ETX&gt;
+      &lt;STX&gt;F*&lt;ETX&gt;
+      &lt;STX&gt;B1;f3;o196,76;c0,3;w3;h119;r0;d3,pIDSERIE&lt;ETX&gt;
+      &lt;STX&gt;H2;f3;o75,305;c26;b0;h12;w12;d3,pIDSERIE&lt;ETX&gt;
+      &lt;STX&gt;H3;f3;o41,715;c61;b0;h12;w7;d3,eStock&lt;ETX&gt;
+      &lt;STX&gt;W4;f0;o244,38;h732;l132;w2&lt;ETX&gt;
+      &lt;STX&gt;H5;f3;o351,47;c61;b0;h14;w16;d3,pDESCRIPCION&lt;ETX&gt;
+      &lt;STX&gt;L6;f1;o310,769;l730;w2&lt;ETX&gt;
+      &lt;STX&gt;H7;f3;o273,44;c61;b0;h12;w12;d3,EAN:&lt;ETX&gt;
+      &lt;STX&gt;H8;f3;o274,108;c61;b0;h13;w13;d3,pEAN&lt;ETX&gt;
+      &lt;STX&gt;L9;f1;o278,767;l727;w2&lt;ETX&gt;
+      &lt;STX&gt;L10;f0;o247,355;l64;w2&lt;ETX&gt;
+      &lt;STX&gt;H11;f3;o306,108;c61;b0;h13;w13;d3,pIDARTICULO&lt;ETX&gt;
+      &lt;STX&gt;H12;f3;o305,44;c61;b0;h12;w12;d3,ART:&lt;ETX&gt;
+      &lt;STX&gt;H13;f3;o273,364;c61;b0;h12;w12;d3,CNT:&lt;ETX&gt;
+      &lt;STX&gt;H14;f3;o274,508;c61;b0;h13;w13;d3,pIDCONTENEDOR&lt;ETX&gt;
+      &lt;STX&gt;H15;f3;o305,364;c61;b0;h12;w12;d3,ENTRADA:&lt;ETX&gt;
+      &lt;STX&gt;H16;f3;o306,508;c61;b0;h13;w13;d3,pFECHA&lt;ETX&gt;
+      &lt;STX&gt;H17;f3;o377,44;c61;b0;h12;w12;d3,Articulo:&lt;ETX&gt;
+      &lt;STX&gt;H18;f3;o41,36;c61;b0;h12;w7;d3,Series&lt;ETX&gt;
+      &lt;STX&gt;H19;f3;o239,336;c61;b0;h17;w17;d3,pINDICE&lt;ETX&gt;
+      &lt;STX&gt;D0&lt;ETX&gt;
+      &lt;STX&gt;R&lt;ETX&gt;
+      &lt;STX&gt;&lt;SI&gt;l13&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;E*,1&lt;CAN&gt;&lt;ETX&gt;
+      &lt;STX&gt;&lt;RS&gt;1&lt;US&gt;1&lt;ETB&gt;&lt;ETX&gt;
+    </texto>
+  </etiqueta>
+
+  <etiqueta id="ContenedorDiunsaIPL">
+    <texto>
+      &lt;STX&gt;R&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;C&lt;SI&gt;W748&lt;SI&gt;h&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;P&lt;ETX&gt; &lt;STX&gt;F*&lt;ETX&gt;
+      &lt;STX&gt;H1;f3;o50,722;c61;b0;h12;w9;d3,eStock&lt;ETX&gt;
+      &lt;STX&gt;W2;f0;o221,8;h769;l161;w2&lt;ETX&gt;
+      &lt;STX&gt;H3;f3;o358,24;c61;b0;h14;w14;d3,pCLIENTE&lt;ETX&gt;
+      &lt;STX&gt;H4;f3;o286,170;c61;b0;h13;w13;d3,pART&lt;ETX&gt;
+      &lt;STX&gt;H5;f3;o287,403;c61;b0;h13;w13;d3,UNIDADES:&lt;ETX&gt;
+      &lt;STX&gt;H6;f3;o287,556;c61;b0;h13;w13;d3,pCANTIDAD&lt;ETX&gt;
+      &lt;STX&gt;H7;f3;o384,24;c61;b0;h13;w13;d3,CLINTE:&lt;ETX&gt;
+      &lt;STX&gt;H8;f3;o50,9;c61;b0;h12;w7;d3,Cont&lt;ETX&gt;
+      &lt;STX&gt;H9;f3;o320,24;c61;b0;h13;w13;d3,PEDIDO #:&lt;ETX&gt;
+      &lt;STX&gt;H10;f3;o320,170;c61;b0;h13;w13;d3,pPEDIDO&lt;ETX&gt;
+      &lt;STX&gt;H11;f3;o286,24;c61;b0;h13;w13;d3,ARTÍCULOS:&lt;ETX&gt;
+      &lt;STX&gt;B12;f3;o201,80;c0,3;w3;h112;r0;d3,pCONTENEDOR&lt;ETX&gt;
+      &lt;STX&gt;H13;f3;o90,297;c26;b0;h14;w14;d3,pCONTENEDOR&lt;ETX&gt;
+      &lt;STX&gt;L14;f0;o253,385;l34;w2&lt;ETX&gt;
+      &lt;STX&gt;H15;f3;o254,24;c61;b0;h13;w13;d3,# DE BULTOS:&lt;ETX&gt;
+      &lt;STX&gt;D0&lt;ETX&gt; &lt;STX&gt;R&lt;ETX&gt;
+      &lt;STX&gt;&lt;SI&gt;l13&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;E*,1&lt;CAN&gt;&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;g0&lt;ETX&gt;
+      &lt;STX&gt;!AþF‰&amp;‚Eþ"$&amp;"$…&lt;ETX&gt; &lt;STX&gt;(&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;g0&lt;ETX&gt;
+      &lt;STX&gt;!BžF‰&amp;"&amp;‚Eü"$&amp;"$„&lt;ETX&gt; &lt;STX&gt;(&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;g0&lt;ETX&gt;
+      &lt;STX&gt;!B¾F‰&amp;"$‚&amp;Eÿ"$&lt;ETX&gt; &lt;STX&gt;(&lt;ETX&gt;
+      &lt;STX&gt;&lt;RS&gt;1&lt;US&gt;1&lt;ETB&gt;&lt;ETX&gt;
+    </texto>
+  </etiqueta>
+
+  <etiqueta id="ContenedorDiunsaZPL">
+    <texto>
+      ^XA
+      ^FT701,376
+      ^CI0
+      ^A0N,23,24^FDeStock^FS
+      ^FO765,23
+      ^GB0,161,2^FS
+      ^FO0,23
+      ^GB766,0,2^FS
+      ^FO0,182
+      ^GB766,0,2^FS
+      ^FT14,75
+      ^A0N,28,39^FDpCLIENTE^FS
+      ^FT160,143
+      ^A0N,25,34^FDpART^FS
+      ^FT393,144
+      ^A0N,25,34^FDUNIDADES:^FS
+      ^FT546,144
+      ^A0N,25,34^FDpCANTIDAD^FS
+      ^FT14,45
+      ^A0N,25,34^FDCLINTE:^FS
+      ^FT10,376
+      ^A0N,23,20^FDont^FS
+      ^FT14,109
+      ^A0N,25,33^FDPEDIDO #:^FS
+      ^FT160,109
+      ^A0N,25,34^FDpPEDIDO^FS
+      ^FT14,143
+      ^A0N,25,33^FDARTCULOS:^FS
+      ^FO70,204
+      ^BY3,2.7^B3N,N,112,N,N^FDpCONTENEDOR^FS
+      ^FT275,343
+      ^A0N,28,39^FDpCONTENEDOR^FS
+      ^FO375,118
+      ^GB0,34,2^FS
+      ^FT14,178
+      ^A0N,25,34^FD# DE BULTOS:^FS
+      ^FO0,83
+      ^XGR:SSGFX000.GRF,1,1^FS
+      ^PQ1,0,1,Y
+      ^XZ
+      ^XA
+      ^IDR:SSGFX000.GRF^XZ
+    </texto>
+  </etiqueta>
+
+  <etiqueta id="ContenedorSerieZPL">
+    <texto>
+      ^XA
+      ^FO80,224
+      ^BY3,2.7^B3N,N,94,N,N^FD999999999999^FS
+      ^FT238,354
+      ^CI0
+      ^A0N,39,54^FD999999999999^FS
+      ^FT722,378
+      ^A0N,20,25^FDeflow^FS
+      ^FO28,23
+      ^GB732,132,2^FS
+      ^FT34,76
+      ^A0N,34,47^FDpDESCRIPCION^FS
+      ^FO29,87
+      ^GB730,0,2^FS
+      ^FT34,147
+      ^A0N,23,32^FDEAN:^FS
+      ^FT98,149
+      ^A0N,25,34^FDpEAN^FS
+      ^FO30,119
+      ^GB727,0,2^FS
+      ^FO345,88
+      ^GB0,64,2^FS
+      ^FT98,117
+      ^A0N,25,34^FDpIDARTICULO^FS
+      ^FT34,115
+      ^A0N,23,32^FDART:^FS
+      ^FT354,147
+      ^A0N,23,32^FDCNT:^FS
+      ^FT498,149
+      ^A0N,25,34^FDpIDCONTENEDOR^FS
+      ^FT34,43
+      ^A0N,23,32^FDArticulo:^FS
+      ^FT10,378
+      ^A0N,20,27^FDSeries^FS
+      ^FT317,204
+      ^A0N,34,47^FDpINDICE^FS
+      ^PQ1,0,1,Y
+      ^XZ
+    </texto>
+  </etiqueta>
+
+
+  <etiqueta id="ContenedorSerieZPLCOCHEZ">
+    <texto>
+      ^XA
+      ^FO80,224
+      ^BY3,2.7^B3N,N,94,N,N^FD999999999999^FS
+      ^FT238,354
+      ^CI0
+      ^A0N,39,54^FD999999999999^FS
+      ^FT722,378
+      ^A0N,20,25^FDeflow^FS
+      ^FO28,23
+      ^GB732,132,2^FS
+      ^FT34,76
+      ^A0N,34,47^FDpDESCRIPCION^FS
+      ^FO29,87
+      ^GB730,0,2^FS
+      ^FT34,147
+      ^A0N,23,32^FDEAN:^FS
+      ^FT98,149
+      ^A0N,25,34^FDpEAN^FS
+      ^FO30,119
+      ^GB727,0,2^FS
+      ^FO345,88
+      ^GB0,64,2^FS
+      ^FT98,117
+      ^A0N,25,34^FDpIDARTICULO^FS
+      ^FT34,115
+      ^A0N,23,32^FDART:^FS
+      ^FT354,147
+      ^A0N,23,32^FDUDXCJ:^FS
+      ^FT498,149
+      ^A0N,25,34^FDpIDCONTENEDOR^FS
+      ^FT34,43
+      ^A0N,23,32^FDArticulo:^FS
+      ^FT10,378
+      ^A0N,20,27^FDSeries^FS
+      ^FT380,117
+      ^A0N,25,34^FDpIDRECEPCION^FS
+      ^FT317,204
+      ^A0N,34,47^FDpINDICE^FS
+      ^PQ1,0,1,Y
+      ^XZ
+    </texto>
+  </etiqueta>
+
+  <etiqueta id="ArticuloEanZPL">
+    <texto>
+    ^XA
+      ^FO20,154
+      ^BY1,1.7^B3N,N,70,N,N^FDpIDARTICULO^FS 
+      ^CI0
+      ^FT20,85
+      ^A0N,22,18^FDpDESCRIPCION^FS
+      ^FT70,130
+      ^A0N,31,32^FDpIDARTICULO^FS
+      ^FT20,130
+      ^A0N,24,25^FDART:^FS
+      ^FT20,50
+      ^A0N,24,25^FDDescripcion:^FS
+      ^FT310,45
+      ^A0N,14,15^FDpFECHA^FS
+      ^PQ1,0,1,Y
+    ^XZ
+    </texto>
+  </etiqueta>
+
+ <etiqueta id="CONTENEDORES">
+    <texto>
+    ^XA
+      ^FO140,83
+      ^BY2,1.7^B3N,N,210,N,N^FDpIDCONTENEDOR^FS 
+      ^CI0
+      ^FT225,350
+      ^A0N,44,45^FDpIDCONTENEDOR^FS
+      ^FT15,35
+      ^A0N,24,25^FDMulti-Articulo^FS
+      ^PQ1,0,1,Y
+    ^XZ
+    </texto>
+  </etiqueta>
+
+  <etiqueta id="UbicacionZPL_3X1">
+    <texto>
+      ^XA
+      ^FO20,98
+      ^BY2,2.7^B3N,N,169,N,Y^FD999999999999999^FS
+      ^FT108,89
+      ^CI0
+      ^A0N,40,47^FD888888888888888^FS
+      ^FT550,40
+      ^A0N,20,28^FDeflow^FS
+      ^FT30,40
+      ^A0N,20,28^FDUbicacion^FS
+      ^PQ1,0,1,Y
+      ^XZ
+    </texto>
+  </etiqueta>
+
+
+  <etiqueta id="UbicacionZPL_3X2">
+    <texto>
+      ^XA~TA000~JSN^LT0^MMT^MNW^MTT^PON^PMN^LH0,0^JMA^PR4,4^MD0^JUS^LRN^CI0^XZ
+      ^XA^LL0420
+      ^PW600
+      ^BY3,3,219^FT15,340^BAN,,N,N
+      ^FD999999999999999^FS
+      ^FT46,90^A0N,75,52^FH\^FD888888888888888^FS
+      ^FT465,400^A0N,25,24^FH\^FDeflow^FS
+      ^FT30,400^A0N,25,24^FH\^FDUbicacion^FS
+      ^PQ1,0,1,Y^XZ
+    </texto>
+  </etiqueta>
+
+  <etiqueta id="ArticuloEanZPL_3X1">
+    <texto>
+      ^XA
+      ^MMT
+      ^PW609
+      ^LL0406
+      ^LS0
+      ^FT30,37^A0N,22,32^FH\^FDDESCRIPCION^FS
+      ^FT325,93^A0N,19,28^FH\^FDCaducidad:^FS
+      ^FT325,65^A0N,19,28^FH\^FDValidacion:^FS
+      ^FT456,93^A0N,19,28^FH\^FDpFFECHACAD^FS
+      ^FT456,65^A0N,19,28^FH\^FDpFFECHAVAL^FS
+      ^FT90,93^A0N,19,28^FH\^FDpLOTE^FS
+      ^FT74,65^A0N,19,28^FH\^FDpIDARTICULO^FS
+      ^FT30,93^A0N,19,28^FH\^FDLote:^FS
+      ^FT30,65^A0N,19,28^FH\^FDArt:^FS
+      ^FT35,203^A0N,16,23^FH\^FDMEDITEK^FS
+      ^BY2,3,60^FT95,172^BCN,,Y,N
+      ^FD>:pEAN#>5pFECHACAD2^FS
+      ^PQ1,0,1,Y^XZ
+    </texto>
+  </etiqueta>
+
+  <etiqueta id="ContenedorALPISTEZPL">
+    <texto>
+      ^XA
+      ^FO110,224
+      ^BY2,2.5^B3N,N,94,N,N^FDpCONTENEDOR^FS
+      ^FT150,354
+      ^CI0
+      ^A0N,39,54^FDpCONTENEDOR^FS
+      ^FO28,23
+      ^GB780,380,4^FS
+      ^FO29,87
+      ^GB778,0,2^FS
+      ^FO29,119
+      ^GB625,0,2^FS
+      ^FT36,70
+      ^A0N,23,32^FDpCLIENTE^FS
+      ^FT37,45
+      ^A0N,23,32^FDCLIENTE:^FS
+      ^FT37,112
+      ^A0N,23,32^FDPEDIDO #:^FS
+      ^FT207,112
+      ^A0N,25,34^FDpPEDIDO^FS
+      ^FT37,388
+      ^A0N,23,20^FDpFECHA^FS
+      ^FT540,388
+      ^A0N,23,24^FDeAutomatic^FS
+      ^FO29,153
+      ^GB625,0,2^FS
+      ^FO29,188
+      ^GB625,0,2^FS
+      ^FT37,142
+      ^A0N,23,32^FDRUTA:^FS
+      ^FT125,144
+      ^A0N,25,30^FDpART^FS
+      ^FT419,144
+      ^A0N,23,32^FDUNIDADES:^FS
+      ^FT577,144
+      ^A0N,25,34^FDpCANTIDAD^FS
+      ^FO404,121
+      ^GB0,32,2^FS
+      ^FO653,88
+      ^GB0,315,2^FS
+      ^FT211,179
+      ^A0N,25,34^FDpCHEQ^FS
+      ^FT760,385
+      ^AOB,80,60^FDpFACT^FS
+      ^FT37,179
+      ^A0N,23,33^FDCHEQUEADO:^FS
+      ^PQ1,0,1,Y
+      ^XZ
+    </texto>
+  </etiqueta>
+
+  <etiqueta id="SEGEX_CJ_RECEPCION">
+    <texto>
+      ^XA~TA000~JSN^LT0^MNW^MTT^PON^PMN^LH0,0^JMA^PR4,4~SD15^JUS^LRN^CI0^XZ
+      ~DG000.GRF,02304,024,
+      ,:::::::::::::::::gM020H020202,,gO0M8,,gL0K2A202AA0,,gM0808008H80A0,,gK0M2A2A2A0,,gL080K0808A0,,gI0H2N0I2A0,,gS0H8080,,Q02020H020202H2M0I28A8202,S010H01010I0H1I010L01,S0A800AHA80H0HA802AHAH08A8A80,R0H54015H5I0I5405H540I014,R0BAA82AHA802BAHA03AHA08283A,Q0150H0150I0J540540K054,R0A8002A0I0HAJ0A80I080A8,R050H0140H01540I0540J0154,Q02AA002A0H03AA0200AA0H02ABA2,Q0150H0140H0150J050K0540,R0HAH02AA802A0J0IA800AA80,R054001554014044005540H015,R02A803AHA02A02A80BAA8002A80,R015001554014015005H5I015,S0A80AA8802A0AA80A880H0HA80,S054010I0540050040J0H540,Q0203A2BA0203A22B82A80H02ABA0,S014010I0140050050I015540,Q0202A0A80H02A80A82A80H0HA2A0,Q05054050I0154550040I054140,Q0JA0BAHA80BABA82BAHA2A82A8,Q0I5405I5015I5015H54150150,Q0IA80AIA802AHA02AIA2A80A8,R0H4I040K040I040404,S020H020L020H020H020H02,,::::U080K08008800880,,S02A282J2A2A2A22802820202,,::::::::::::::::::::::::::::^XA
+      ^MMT
+      ^PW812
+      ^LL0406
+      ^LS0
+      ^FT640,416^XG000.GRF,1,1^FS
+      ^FT30,193^A0N,25,24^FH\^FDFecha Caducidad:^FS
+      ^FT21,386^A0N,17,16^FH\^FDeflow^FS
+      ^FT30,157^A0N,25,24^FH\^FDPresentacion:^FS
+      ^FT30,122^A0N,25,24^FH\^FDLote:^FS
+      ^FT208,193^A0N,26,25^FH\^FDpCADUCIDAD^FS
+      ^FT170,157^A0N,26,25^FH\^FDpCANT^FS
+      ^FT88,122^A0N,26,25^FH\^FDpLOTE^FS
+      ^FT30,85^A0N,26,25^FH\^FDpDESCRIPCION^FS
+      ^FT115,49^A0N,26,25^FH\^FDpARTICULO^FS
+      ^FT30,49^A0N,25,24^FH\^FDC\A2digo:^FS
+      ^BY4,3,107^FT103,317^BAN,,Y,N
+      ^FDpEAN^FS
+      ^PQ1,0,1,Y^XZ
+      ^XA^ID000.GRF^FS^XZ
+
+    </texto>
+  </etiqueta>
+
+  <etiqueta id="ContenedorSerieZPLCONFECHAENTRADA">
+    <texto>
+      ^XA
+      ^FO80,224
+      ^BY3,2.7^B3N,N,94,N,N^FD999999999999^FS
+      ^FT238,354
+      ^CI0
+      ^A0N,39,54^FD999999999999^FS
+      ^FT722,378
+      ^A0N,20,25^FDeflow^FS
+      ^FO28,23
+      ^GB732,132,2^FS
+      ^FT34,76
+      ^A0N,34,47^FDpDESCRIPCION^FS
+      ^FO29,87
+      ^GB730,0,2^FS
+      ^FT34,147
+      ^A0N,23,32^FDEAN:^FS
+      ^FT98,149
+      ^A0N,25,34^FDpEAN^FS
+      ^FO30,119
+      ^GB727,0,2^FS
+      ^FO345,88
+      ^GB0,64,2^FS
+      ^FT98,117
+      ^A0N,25,34^FDpIDARTICULO^FS
+      ^FT34,115
+      ^A0N,23,32^FDART:^FS
+      ^FT354,147
+      ^A0N,23,32^FDCNT:^FS
+      ^FT498,149
+      ^A0N,25,34^FDpIDCONTENEDOR^FS
+      ^FT354,115
+      ^A0N,23,32^FDENTRADA:^FS
+      ^FT498,117
+      ^A0N,25,34^FDpFECHA^FS
+      ^FT34,43
+      ^A0N,23,32^FDArticulo:^FS
+      ^FT10,378
+      ^A0N,20,27^FDSeries^FS
+      ^FT317,204
+      ^A0N,34,47^FDpINDICE^FS
+      ^PQ1,0,1,Y
+      ^XZ
+    </texto>
+  </etiqueta>
+
+  <etiqueta id="ContenedorIPL">
+    <texto>
+      &lt;STX&gt;R&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;C&lt;SI&gt;W748&lt;SI&gt;h&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;P&lt;ETX&gt;
+      &lt;STX&gt;F*&lt;ETX&gt;
+      &lt;STX&gt;H1;f3;o39,707;c61;b0;h7;w7;d3,eStock&lt;ETX&gt;
+      &lt;STX&gt;W2;f0;o215,21;h737;l166;w1&lt;ETX&gt;
+      &lt;STX&gt;L3;f1;o317,758;l736;w1&lt;ETX&gt;
+      &lt;STX&gt;L4;f1;o291,758;l736;w1&lt;ETX&gt;
+      &lt;STX&gt;L5;f1;o266,758;l736;w1&lt;ETX&gt;
+      &lt;STX&gt;H6;f3;o380,34;c61;b0;h6;w6;d3,Articulo:&lt;ETX&gt;
+      &lt;STX&gt;H7;f3;o372,34;c61;b0;h20;w12;d3,VAR1&lt;ETX&gt;
+      &lt;STX&gt;H8;f3;o267,110;c61;b0;h12;w12;d3,VAR6&lt;ETX&gt;
+      &lt;STX&gt;H9;f3;o293,110;c61;b0;h12;w13;d3,VAR3&lt;ETX&gt;
+      &lt;STX&gt;H10;f3;o292,34;c61;b0;h6;w7;d3,UDXCJ:&lt;ETX&gt;
+      &lt;STX&gt;H11;f3;o317,389;c61;b0;h6;w8;d3,CANTIDAD:&lt;ETX&gt;
+      &lt;STX&gt;H12;f3;o317,34;c61;b0;h6;w8;d3,ART:&lt;ETX&gt;
+      &lt;STX&gt;H13;f3;o318,491;c61;b0;h12;w13;d3,VAR4&lt;ETX&gt;
+      &lt;STX&gt;H14;f3;o292,389;c61;b0;h6;w8;d3,PESO:&lt;ETX&gt;
+      &lt;STX&gt;H15;f3;o293,491;c61;b0;h12;w13;d3,VAR5&lt;ETX&gt;
+      &lt;STX&gt;L16;f1;o241,757;l736;w1&lt;ETX&gt;
+      &lt;STX&gt;H17;f3;o241,34;c61;b0;h6;w8;d3,LOTE:&lt;ETX&gt;
+      &lt;STX&gt;H18;f3;o241,389;c61;b0;h6;w8;d3,CADUCA:&lt;ETX&gt;
+      &lt;STX&gt;H19;f3;o242,567;c61;b0;h12;w16;d3,VAR9&lt;ETX&gt;
+      &lt;STX&gt;H20;f3;o266,389;c61;b0;h6;w8;d3,FECHA ENTRADA:&lt;ETX&gt;
+      &lt;STX&gt;H21;f3;o267,567;c61;b0;h12;w16;d3,VAR8&lt;ETX&gt;
+      &lt;STX&gt;B22;f3;o189,156;c7,0,2;w5;h114;d3,VAR10&lt;ETX&gt;
+      &lt;STX&gt;H23;f3;o75,201;c61;b0;h14;w14;d3,BARRAA&lt;ETX&gt;
+      &lt;STX&gt;H24;f3;o75,236;c61;b0;h14;w14;d3,BARRAB&lt;ETX&gt;
+      &lt;STX&gt;H25;f3;o75,271;c61;b0;h14;w14;d3,BARRAC&lt;ETX&gt;
+      &lt;STX&gt;H26;f3;o75,306;c61;b0;h14;w14;d3,BARRAD&lt;ETX&gt;
+      &lt;STX&gt;H27;f3;o75,342;c61;b0;h14;w14;d3,BARRAE&lt;ETX&gt;
+      &lt;STX&gt;H28;f3;o75,376;c61;b0;h14;w14;d3,BARRAF&lt;ETX&gt;
+      &lt;STX&gt;H29;f3;o75,437;c61;b0;h14;w14;d3,BARRAG&lt;ETX&gt;
+      &lt;STX&gt;H30;f3;o75,471;c61;b0;h14;w14;d3,BARRAH&lt;ETX&gt;
+      &lt;STX&gt;H31;f3;o75,506;c61;b0;h14;w14;d3,BARRAI&lt;ETX&gt;
+      &lt;STX&gt;H32;f3;o75,541;c61;b0;h14;w14;d3,BARRAJ&lt;ETX&gt;
+      &lt;STX&gt;H33;f3;o75,576;c61;b0;h14;w14;d3,BARRAK&lt;ETX&gt;
+      &lt;STX&gt;H34;f3;o75,611;c61;b0;h14;w14;d3,BARRAL&lt;ETX&gt;
+      &lt;STX&gt;H35;f3;o75,141;c61;b0;h14;w14;d3,BARRAM&lt;ETX&gt;
+      &lt;STX&gt;H36;f3;o318,110;c61;b0;h12;w13;d3,VAR2&lt;ETX&gt;
+      &lt;STX&gt;L37;f0;o214,376;l102;w1&lt;ETX&gt;
+      &lt;STX&gt;H38;f3;o242,110;c61;b0;h12;w13;d3,VAR7&lt;ETX&gt;
+      &lt;STX&gt;H39;f3;o266,34;c61;b0;h6;w8;d3,CONFIRM:&lt;ETX&gt;
+      &lt;STX&gt;D0&lt;ETX&gt;
+      &lt;STX&gt;R&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;E*,1&lt;CAN&gt;&lt;ETX&gt;
+      &lt;STX&gt;&lt;RS&gt;1&lt;US&gt;1&lt;ETB&gt;&lt;ETX&gt;
+    </texto>
+  </etiqueta>
+  <etiqueta id="ContenedorZPL">
+    <texto>
+      ^XA
+      ^DFR:SSFMT000.ZPL^FS
+      ^FT697,397
+      ^CI0
+      ^A0N,20,28^FDeflow^FS
+      ^FO11,25
+      ^GB737,166,1^FS
+      ^FO214,230M
+      ^BY4^BEN,122,N,N^FDVAR10^FS
+      ^FT226,380
+      ^A0N,28,39^BARRAA^FS
+      ^FT254,380
+      ^A0N,28,39^BARRAB^FS
+      ^FT282,380
+      ^A0N,28,39^BARRAC^FS
+      ^FT310,380
+      ^A0N,28,39^BARRAD^FS
+      ^FT338,380
+      ^A0N,28,39^BARRAE^FS
+      ^FT366,380
+      ^A0N,28,39^BARRAF^FS
+      ^FT414,380
+      ^A0N,28,39^BARRAG^FS
+      ^FT442,380
+      ^A0N,28,39^BARRAH^FS
+      ^FT470,380
+      ^A0N,28,39^BARRAI^FS
+      ^FT498,380
+      ^A0N,28,39^BARRAJ^FS
+      ^FT526,380
+      ^A0N,28,39^BARRAK^FS
+      ^FT554,380
+      ^A0N,28,39^BARRAL^FS
+      ^FT178,380
+      ^A0N,28,39^BARRAM^FS
+      ^FO12,88
+      ^GB736,0,1^FS
+      ^FO12,114
+      ^GB736,0,1^FS
+      ^FO12,139
+      ^GB736,0,1^FS
+      ^FT24,35
+      ^A0N,11,15^FDArticulo:^FS
+      ^FT24,69
+      ^A0N,37,31^FDVAR1^FS
+      ^FT25,130
+      ^A0N,11,17^FDUDxCJ:^FS
+      ^FT506,108
+      ^A0N,23,35^FDVAR4^FS
+      ^FO11,164
+      ^GB736,0,1^FS
+      ^FT392,149
+      ^A0N,11,19^FDFECHA ENTRADA:^FS
+      ^FT544,159
+      ^A0N,23,45^FDVAR8^FS
+      ^FT544,184
+      ^A0N,23,45^FDVAR9^FS
+
+      ^FO379,89
+      ^GB0,102,1^FS
+      ^FT24,98^A0N,11,17^FDART:^FS
+      ^FT75,108^A0N,23,32^FDVAR2^FS
+      ^FT392,98^A0N,11,17^FDCANTIDAD:^FS
+      ^FT24,158^A0N,11,17^FDCONF.:^FS
+      ^FT24,184^A0N,11,17^FDLOTE:^FS
+      ^FT392,125^A0N,11,17^FDPESO:^FS
+      ^FT392,174^A0N,11,17^FDCADUCA:^FS
+      ^FT506,133
+      ^A0N,23,35^FDVAR5^FS
+      ^FT75,133
+      ^A0N,23,35^FDVAR3^FS
+      ^FT75,159
+      ^A0N,23,35^FDVAR6^FS
+      ^FT75,184
+      ^A0N,23,32^FDVAR7^FS
+      ^FT210,214
+      ^A0N,23,32^FDpTextoAdic^FS
+      ^FT14,214^A0N,22,22^FDpRECEPCION^FS
+      ^XZ
+      ^XA
+      ^XFR:SSFMT000.ZPL^PQ1,0,1,Y
+      ^XZ
+      ^XA
+      ^IDR:SSFMT000.ZPL^XZ
+    </texto>
+  </etiqueta>
+  <etiqueta id="ContenedorZPL_LETRA">
+    <texto>
+      ^XA
+      ^DFR:SSFMT000.ZPL^FS
+      ^FT697,397
+      ^CI0
+      ^A0N,20,28^FDeflow^FS
+      ^FO11,25
+      ^GB737,166,1^FS
+      ^FO60,210
+      ^BY3,2.7^B3N,N,130,N,N^FDVAR10^FS
+      ^FO12,88
+      ^GB736,0,1^FS
+      ^FO12,114
+      ^GB736,0,1^FS
+      ^FO12,139
+      ^GB736,0,1^FS
+      ^FT24,35
+      ^A0N,11,15^FDArticulo:^FS
+      ^FT24,69
+      ^A0N,37,31^FDVAR1^FS
+      ^FT25,130
+      ^A0N,11,17^FDUDxCJ:^FS
+      ^FT506,108
+      ^A0N,23,35^FDVAR4^FS
+      ^FO11,164
+      ^GB736,0,1^FS
+      ^FT392,149
+      ^A0N,11,19^FDFECHA ENTRADA:^FS
+      ^FT544,159
+      ^A0N,23,45^FDVAR8^FS
+      ^FT544,184
+      ^A0N,23,45^FDVAR9^FS
+      ^FO379,89
+      ^GB0,102,1^FS
+      ^FT24,98^A0N,11,17^FDART:^FS
+      ^FT75,108^A0N,23,32^FDVAR2^FS
+      ^FT392,98^A0N,11,17^FDCANTIDAD:^FS
+      ^FT24,158^A0N,11,17^FDCONF.:^FS
+      ^FT24,184^A0N,11,17^FDLOTE:^FS
+      ^FT392,125^A0N,11,17^FDPESO:^FS
+      ^FT392,174^A0N,11,17^FDCADUCA:^FS
+      ^FT290,370^A0N,30,34^FDVAR10^FS
+      ^FT506,133
+      ^A0N,23,35^FDVAR5^FS
+      ^FT75,133
+      ^A0N,23,35^FDVAR3^FS
+      ^FT75,159
+      ^A0N,23,35^FDVAR6^FS
+      ^FT75,184
+      ^A0N,23,32^FDVAR7^FS
+      ^FT210,214
+      ^A0N,23,32^FDpTextoAdic^FS
+      ^FT14,214^A0N,22,22^FDpRECEPCION^FS
+      ^XZ
+      ^XA
+      ^XFR:SSFMT000.ZPL^PQ1,0,1,Y
+      ^XZ
+      ^XA
+      ^IDR:SSFMT000.ZPL^XZ
+    </texto>
+  </etiqueta>
+  <etiqueta id="ContenedorZPL_ELMEC">
+    <texto>
+      ^XA
+      ^DFR:SSFMT000.ZPL^FS
+      ^FT697,397
+      ^CI0
+      ^A0N,20,28^FDeflow^FS
+      ^FO11,25
+      ^GB790,166,1^FS
+      ^FO214,230M
+      ^BY4^BEN,122,N,N^FDVAR10^FS
+      ^FT226,380
+      ^A0N,28,39^BARRAA^FS
+      ^FT254,380
+      ^A0N,28,39^BARRAB^FS
+      ^FT282,380
+      ^A0N,28,39^BARRAC^FS
+      ^FT310,380
+      ^A0N,28,39^BARRAD^FS
+      ^FT338,380
+      ^A0N,28,39^BARRAE^FS
+      ^FT366,380
+      ^A0N,28,39^BARRAF^FS
+      ^FT414,380
+      ^A0N,28,39^BARRAG^FS
+      ^FT442,380
+      ^A0N,28,39^BARRAH^FS
+      ^FT470,380
+      ^A0N,28,39^BARRAI^FS
+      ^FT498,380
+      ^A0N,28,39^BARRAJ^FS
+      ^FT526,380
+      ^A0N,28,39^BARRAK^FS
+      ^FT554,380
+      ^A0N,28,39^BARRAL^FS
+      ^FT178,380
+      ^A0N,28,39^BARRAM^FS
+      ^FO12,88
+      ^GB328,0,1^FS
+      ^FO12,114
+      ^GB328,0,1^FS
+      ^FO12,139
+      ^GB328,0,1^FS
+      ^FT24,35
+      ^A0N,11,15^FDArticulo:^FS
+      ^FT24,69
+      ^A0N,37,31^FDVAR1^FS
+      ^FT25,130
+      ^A0N,11,17^FDUDxCJ:^FS
+      ^FO12,164
+      ^GB789,0,1^FS
+      ^FO350,78
+      ^BY2,2.7^B3N,N,75,N,N^FDpEAN^FS
+      ^FT392,149
+      ^FO339,89
+      ^GB0,102,1^FS
+      ^FT24,98^A0N,11,17^FDART:^FS
+      ^FT75,108^A0N,23,32^FDVAR2^FS
+      ^FT24,158^A0N,11,17^FDCONF.:^FS
+      ^FT24,181^A0N,11,17^FDLOTE:^FS
+      ^FT355,181^A0N,11,17^FDEAN:^FS
+      ^FT75,133
+      ^A0N,23,35^FDVAR3^FS
+      ^FT75,159
+      ^A0N,23,35^FDVAR6^FS
+      ^FT395,184
+      ^A0N,23,35^FDpEAN^FS
+      ^FT75,184
+      ^A0N,23,32^FDVAR7^FS
+      ^FT100,214
+      ^A0N,23,32^FDpTextoAdic^FS
+      ^XZ
+      ^XA
+      ^XFR:SSFMT000.ZPL^PQ1,0,1,Y
+      ^XZ
+      ^XA
+      ^IDR:SSFMT000.ZPL^XZ
+    </texto>
+  </etiqueta>
+
+  <etiqueta id="CONTENEDOR_ZPL_ILG">
+    <texto>
+      ^XA~TA000~JSN^LT0^MNW^MTT^PON^PMN^LH0,0^JMA^PR4,4~SD15^JUS^LRN^CI0^XZ
+      ~DG000.GRF,07680,048,
+      ,:::::::::::::::Y03BKBA0,Y0M540,Y06AEAEAEA0,Y015L5M0H404H404H4I04040404040P040404040404040404040404,Y01BLB80K0PA02ANA80P0gIA,Y015L540J0P1H0P1O0gK10,g0EAEAEAEA0J02AOA02ANA80M02AgJA,Y015L540K04040404040H04040404040P0404040404040404040404040,g03BKBA0J02ANA80AOA80L0gMA,g0M540J0P1H0P1N0gL10,g02EAEAEAE0J02ANA80AOA80L0gMA,g0N5K04040404040H04040404040N04040404040404040404040404,g03BLB80I0PA80AOAM0gMA8,g015L540I0O1H0Q1L0gN10,gG0IAEAHAE0I0PAH0PAL0gNA8,g015L540J04040404040H04040404040L04040404040404040404040404040,g01BMB8002AOAH0OA80K0gNA0,g015M5I0P1H0P1L0gN1,gG06AEAEAEA8002ANA802ANA80J0gOA0,gG0N5J0I404H4040H04040404040L0404040404040404040404040404,gG03BLB8002ANA802ANA80J0gOA0,gG015L54001O1H0P1K0gO1,gH0EAEAEAE800AOA802ANAK02AgMA80,gG015L54004040404040H04040404040L04040404040404040404040404040,gG01BMBH0PAH0PAK0gOA80,gG015M5H0O1H0Q1J0gP1,g02EAEAEAEAE00AOAH0OA80I02AOA8,g0P5I04040404040H04040404040J040404040404,g03BNBH0PAH0OA80I02AOA8,W0S5401N1H0P1K0P1,W0IAEAHAEAHAEA80ANA802ANA80I02ANA80,W0S5404040404040H04040404040J0404040404040,S01BVB02AMA802ANAK0PA80,S015V501N1H0P1J0Q1,P02EAEAEAEAEAEAEAEAEAEAC0AMAH0PAJ02AOA02AVA0,P0gG5404H404H4I04040404040J0404040404040H0404040404040404,P03BYB80AMAH0PAJ02AOA02AVA0,M0gJ5401M101O1K0P1H0X10,M0AEAEAEAEAEAEAEAEAEAEAEAE80AMA02AOAJ02ANA802AVA0,M0gJ540040404040404040404040J04040404040H0404040404040404040,I01BgMB02AKA802AOAJ0PA80AVA80,I015gM501L1H0P1J0Q1H0W1,2EAEAEAEAEAEAEAEAEAEAEAEAEAEAEAE80AKA80AOA80I0PAH0WA80,15gP5400404040H04040404040J04040404040H040404040404040404,3BgPB80AKA80AOA80I0PAH0WA80,15gP5401K101P1J0P1H0X1,2AHAEAHAEAHAEAHAEAHAEAHAEAHAEAHAC02AJAH0PA80H02AOA02AVA,15gP540404040H04040404040L04040404040H04040404040404040,I03BgLB800AKA02AOAJ02AOA02AVA,I0gN5401L101O1K0P1H0X1,L02EAEAEAEAEAEAEAEAEAEAEAEA00AKA802AOAJ0PA802AUA8,L0gK5H0I404H40404040404040J04040404040H040404040404040404,L03BgIBH0LA802AOAJ0PA802AUA8,N015g5401L1H0P1K0P1H0W10,N02AEAEAEAEAEAEAEAEAEAEAC02AKA80AOA80I0PA802AUA8,Q0X540040404040H04040404040J04040404040H0404040404040404040,Q03BVB800ALAH0PAJ02AOAH0WA0,Q0X54001L1H0O1K0P1H0X10,T0AEAEAEAEAEAEAEA80AMA02AOAQ0JAO0PA0,S015T5H040404040H04040404040R04040N0404040404,S01BTB80AMA02AOAQ0JAO0PA0,V015P5401M1H0P1R0I1O0P1,V02AHAEAHAEAHAE02ALA802ANA80P0IA80M02ANA80,X0P5H040404040404040404040R04040N0404040404040,X03BNB80AMA80AOA80O02AHA80M0PA80,X0P5H0N1H0P1Q0J1N0Q1,X0AEAEAEAEA802AMAH0PAQ02AHAM02APA,X0O5H0I404H4040H04040404040R040N040404040404,X0OB802AMAH0PAQ02AHAM02APA,W0O5401O101Y1H0gH10,W0AEAEAEAEAE00ANA02AYA0AgHA,V015N5H04040404040H040404040404040404040H04040404040404040404040,V03BNB802AMA802AXA80AgGA8,V015N5H0O1H0g1H0gH10,U02AEAEAEAEAC00ANA80AYA80AgGA0,U015N540H0404040404040404040404040404040H0404040404040404040404,U03BNB800ANA80AYA80AgGA0,U0P501P1H0Y1H0gG10,U0AEAHAEAHAE00AOA80AYAH0gGA,T015N540H04040404040H0404040404040404040404040404040404040404040,T03BNB800AOA82AYA02AYA8,T015N5401P101Y1H0gG10,T0AEAEAEAEAC002AOA02AXA802AXA80,S015N54004404H404H4I040404040404040404040H04040404040404040404,S03BNBI02ANA80AYA80AXA8,S0P5I0P1H0g101Y10,S02EAEAEAEAE0H02ANA80AYA80AXA8,R0P540H04040404040H040404040404040404040H0404040404040404040,R03BNB80H0PA80AYAH0XA,R0P54001P1H0Y1H0Y1,R0AEAEAEAEAE0I0PA02AYA02AUA80,Q015O5K04040404040H04040404040404040404040404040404040404,Q03BNB8,Q0P50,Q02EAHAEAHAE8,,::::::::::gJ0HAK0IA80H02AA80H0HAJ0IAJ0IAI02A80H0IA80H0IA80,gK040J04040J040J040J04040J040J040J040J0404,gJ0HAJ02AHA80H0JAI0HAI02AHAJ02A80H02A8002A8A8002A8A80,gJ010J0J1J0I1J0H1I0J1J0H1J0H1I0H1010H0H101,gJ0HAJ02AHA80H0JAI0HAI02AHAJ02A80H02A8002A8A8002A8A80,gJ040J040L04040J040H04040J040J040J04040J040,gI02A80I0HA2A8002A8A80H0A80H02A280I02A80H0HAI02A2A8002AHA80,gI0H1K0J1I0H1010H0H1J01010J0H1J010I0J1I0J1,gI02A80I0JAI02A0K0A80H0HA280I0HAJ0HAI0HAK02A2A,gK040J04040P040J04040J040J040H040L0404,gI02A0I02A8AA0H02A0J02A0I0HA80J0HAJ0A80H0A80J02AA0,gI0H1J0H1010I0H1K0H1I0I1K0H1K010I010K0I10,gI02A0I02A8AA0H02A0J02A0I0HA80J0HAJ0A80H0A80J02AA0,gJ040J04040J04040H040J04040J040J040J040L040,gI0HAJ02AHA80H02AHAI02A0I02AA0I02A80H02A8002A80K0HA8,gI010J0J1I0J1I0H1J010110I0H1J010I0H1K0J10,gI0A80I02A2A80H0IA80H0A80H02A2A0I02A80H02A0H02A80J0A2A8,gI040J040H040H04040J040H04040J040P040N04,gH02A80I02A2A0I0IA80H0A80H0HA2A0I0HAJ0HAI02A2A0H02A2A8,gH0H1K0J1I0J1I0H1J01010I0H1K010I0J1I0J10,gH02A80I02A2A0I0IA80H0A80H0HA2A0I0HAJ0HAI02A2A0H02A2A8,gP04040H040H040H040L040J040J040H04040J04040,gH02A0J028AA0H02A2A80H0A0I0A8AA0I0HAJ0HAI02AHAI02AHA0,gH0I1J0I1J0J1I0H1J0I1J0H1J0H1J0I1J0I1,gH02AA80H02AA80H02AHAI02A0I0IA80I0A80H02A80H02AA80H02AA80,gI04040H04040J04040H040J04040J040J040J04040H0404,,:::::::::::^XA
+      ^MMT
+      ^PW812
+      ^LL0812
+      ^LS0
+      ^FT416,640^XG000.GRF,1,1^FS
+      ^BY5,3,139^FT21,190^BAN,,Y,N
+      ^FDpCONTENEDOR^FS
+      ^FT16,801^A0N,25,24^FH\^FDeFlow-WMS^FS
+      ^FT732,799^A0N,25,24^FH\^FDePRAC^FS
+      ^FT15,39^A0N,28,28^FH\^FDMultiArticulo^FS
+      ^BY3,3,66^FT271,428^BCN,,Y,N
+      ^FDpFECHACAD^FS
+      ^BY4,3,66^FT150,316^BCN,,Y,N
+      ^FD>pLOTE^FS
+      ^FT11,668^A0N,28,31^FH\^FDDESCRIPCION:^FS
+      ^FT20,504^A0N,31,31^FH\^FDRecepci\A2n:^FS
+      ^FT22,628^A0N,31,31^FH\^FDCantidad:^FS
+      ^FT21,586^A0N,31,31^FH\^FDC\A2digo ERP:^FS
+      ^FT21,545^A0N,31,31^FH\^FDC\A2digo WMS:^FS
+      ^FT27,412^A0N,28,33^FH\^FDF.VENCE:^FS
+      ^FT27,294^A0N,28,33^FH\^FDLOTE:^FS
+      ^FT10,748^A0N,89,40^FH\^FDpDESCRIPCION^FS
+      ^FT227,627^A0N,31,31^FH\^FDpCANTIDAD^FS
+      ^FT227,504^A0N,31,31^FH\^FDpIDRECEPCION^FS
+      ^FT227,587^A0N,31,31^FH\^FDpCODIGOARTICULOERP^FS
+      ^FT227,545^A0N,31,31^FH\^FDpCODIGOARTICULOWMS^FS
+      ^PQ1,0,1,Y^XZ
+      ^XA^ID000.GRF^FS^XZ
+    </texto>
+  </etiqueta>
+
+  <etiqueta id="ContenedorConUbicacionIPL">
+    <texto>
+      &lt;STX&gt;R&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;C&lt;SI&gt;W748&lt;SI&gt;h&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;P&lt;ETX&gt;
+      &lt;STX&gt;F*&lt;ETX&gt;
+      &lt;STX&gt;H1;f3;o37,729;c61;b0;h12;w9;d3,eFlow&lt;ETX&gt;
+      &lt;STX&gt;W2;f0;o173,11;h762;l208;w2&lt;ETX&gt;
+      &lt;STX&gt;H3;f3;o235,394;c61;b0;h10;w10;d3,CADUCA:&lt;ETX&gt;
+      &lt;STX&gt;H4;f3;o238,518;c61;b0;h13;w13;d3,VAR9&lt;ETX&gt;
+      &lt;STX&gt;H5;f3;o329,147;c61;b0;h13;w13;d3,VAR2&lt;ETX&gt;
+      &lt;STX&gt;H6;f3;o295,394;c61;b0;h10;w10;d3,PESO:&lt;ETX&gt;
+      &lt;STX&gt;H7;f3;o325,394;c61;b0;h10;w10;d3,CANT UD:&lt;ETX&gt;
+      &lt;STX&gt;H8;f3;o329,518;c61;b0;h13;w13;d3,VAR4&lt;ETX&gt;
+      &lt;STX&gt;H9;f3;o235,27;c61;b0;h10;w10;d3,LOTE:&lt;ETX&gt;
+      &lt;STX&gt;H10;f3;o383,26;c61;b0;h10;w10;d3,Artículo:&lt;ETX&gt;
+      &lt;STX&gt;H11;f3;o295,27;c61;b0;h10;w10;d3,UD:&lt;ETX&gt;
+      &lt;STX&gt;H12;f3;o298,147;c61;b0;h13;w7;d3,VAR3&lt;ETX&gt;
+      &lt;STX&gt;H13;f3;o299,518;c61;b0;h13;w13;d3,VAR5&lt;ETX&gt;
+      &lt;STX&gt;H14;f3;o326,28;c61;b0;h10;w10;d3,ART:&lt;ETX&gt;
+      &lt;STX&gt;B15;f3;o150,177;c0,3;w2;h88;r0;d3,CODIGOBARRAS&lt;ETX&gt;
+      &lt;STX&gt;H16;f3;o63,283;c26;b0;h14;w14;d3,CODIGOBARRAS&lt;ETX&gt;
+      &lt;STX&gt;L17;f0;o206,376;l122;w2&lt;ETX&gt;
+      &lt;STX&gt;H18;f3;o266,394;c61;b0;h10;w10;d3,FECHA ENTRADA:&lt;ETX&gt;
+      &lt;STX&gt;H19;f3;o269,569;c61;b0;h13;w13;d3,VAR8&lt;ETX&gt;
+      &lt;STX&gt;H20;f3;o266,27;c61;b0;h10;w10;d3,CONFIRM:&lt;ETX&gt;
+      &lt;STX&gt;H21;f3;o238,147;c61;b0;h13;w13;d3,VAR7&lt;ETX&gt;
+      &lt;STX&gt;H22;f3;o269,147;c61;b0;h13;w13;d3,VAR6&lt;ETX&gt;
+      &lt;STX&gt;H23;f3;o361,26;c61;b0;h14;w14;d3,VAR1&lt;ETX&gt;
+      &lt;STX&gt;H24;f3;o205,27;c61;b0;h10;w10;d3,UBICACIÓN:&lt;ETX&gt;
+      &lt;STX&gt;H25;f3;o208,147;c61;b0;h13;w13;d3,pUBICACION&lt;ETX&gt;
+      &lt;STX&gt;D0&lt;ETX&gt;
+      &lt;STX&gt;R&lt;ETX&gt;
+      &lt;STX&gt;&lt;SI&gt;l13&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;E*,1&lt;CAN&gt;&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;g0&lt;ETX&gt;
+      &lt;STX&gt;!AÍFŠ&amp;†Eù"$&amp;"$…&lt;ETX&gt;
+      &lt;STX&gt;(&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;g0&lt;ETX&gt;
+      &lt;STX&gt;!AåFŠ&amp;"$†&amp;†Eù"$&amp;"$†&lt;ETX&gt;
+      &lt;STX&gt;(&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;g0&lt;ETX&gt;
+      &lt;STX&gt;!B…FŠ&amp;"$†&amp;†Eø"$&amp;"$†&lt;ETX&gt;
+      &lt;STX&gt;(&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;g0&lt;ETX&gt;
+      &lt;STX&gt;!B¥FŠ&amp;"$ƒ&amp;‡Eù"$&amp;"$‰&lt;ETX&gt;
+      &lt;STX&gt;(&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;g0&lt;ETX&gt;
+      &lt;STX&gt;!BÅFŠ&amp;"$‚&amp;†Eú"$&lt;ETX&gt;
+      &lt;STX&gt;(&lt;ETX&gt;
+      &lt;STX&gt;&lt;RS&gt;1&lt;US&gt;1&lt;ETB&gt;&lt;ETX&gt;
+    </texto>
+  </etiqueta>
+  <etiqueta id="ContenedorConUbicacionZPL">
+    <texto>
+      ^XA
+      ^FT708,390
+      ^CI0
+      ^A0N,23,24^FDeFlow^FS
+      ^FO1,24
+      ^GB762,208,2^FS
+      ^FT384,192
+      ^A0N,20,28^FDCADUCA:^FS
+      ^FT508,194
+      ^A0N,25,34^FDVAR9^FS
+      ^FT137,103
+      ^A0N,25,34^FDVAR2^FS
+      ^FT384,132
+      ^A0N,20,28^FDPESO:^FS
+      ^FT384,102
+      ^A0N,20,28^FDCANT UD:^FS
+      ^FT508,103
+      ^A0N,25,34^FDVAR4^FS
+      ^FT17,192
+      ^A0N,20,28^FDLOTE:^FS
+      ^FT16,42
+      ^A0N,20,28^FDArtculo:^FS
+      ^FT17,132
+      ^A0N,20,28^FDUD:^FS
+      ^FT137,133
+      ^A0N,25,19^FDVAR3^FS
+      ^FT508,132
+      ^A0N,25,34^FDVAR5^FS
+      ^FT18,99
+      ^A0N,20,28^FDART:^FS
+      ^FO174,255
+      ^BY2,2.5^B3N,N,88,N,N^FDCODIGOBARRAS^FS
+      ^FT268,370
+      ^A0N,28,39^FDCODIGOBARRAS^FS
+      ^FO366,77
+      ^GB0,122,2^FS
+      ^FT384,161
+      ^A0N,20,28^FDFECHA ENTRADA:^FS
+      ^FT589,163
+      ^A0N,25,34^FDVAR8^FS
+      ^FT17,161
+      ^A0N,20,28^FDCONFIRM:^FS
+      ^FT137,194
+      ^A0N,25,34^FDVAR7^FS
+      ^FT137,163
+      ^A0N,25,34^FDVAR6^FS
+      ^FT16,71
+      ^A0N,28,39^FDVAR1^FS
+      ^FT17,222
+      ^A0N,20,28^FDUBICACIN:^FS
+      ^FT154,224
+      ^A0N,25,34^FDpUBICACION^FS
+      ^FO0,76
+      ^XGR:SSGFX000.GRF,1,1^FS
+      ^PQ1,0,1,Y
+      ^XZ
+    </texto>
+  </etiqueta>
+  <etiqueta id="ContenedorUbicacionIPL">
+    <texto>
+      &lt;STX&gt;R&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;C&lt;SI&gt;W748&lt;SI&gt;h&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;P&lt;ETX&gt;
+      &lt;STX&gt;F*&lt;ETX&gt;
+      &lt;STX&gt;H1;f3;o39,707;c61;b0;h7;w7;d3,eStock&lt;ETX&gt;
+      &lt;STX&gt;W2;f0;o215,21;h737;l166;w1&lt;ETX&gt;
+      &lt;STX&gt;L3;f1;o317,758;l736;w1&lt;ETX&gt;
+      &lt;STX&gt;L4;f1;o291,758;l736;w1&lt;ETX&gt;
+      &lt;STX&gt;L5;f1;o266,758;l736;w1&lt;ETX&gt;
+      &lt;STX&gt;H6;f3;o380,34;c61;b0;h6;w6;d3,Artículo:&lt;ETX&gt;
+      &lt;STX&gt;H7;f3;o372,34;c61;b0;h20;w12;d3,VAR1&lt;ETX&gt;
+      &lt;STX&gt;H8;f3;o267,110;c61;b0;h12;w12;d3,VAR6&lt;ETX&gt;
+      &lt;STX&gt;H9;f3;o293,110;c61;b0;h12;w13;d3,VAR3&lt;ETX&gt;
+      &lt;STX&gt;H10;f3;o292,34;c61;b0;h6;w7;d3,UDXCJ:&lt;ETX&gt;
+      &lt;STX&gt;H11;f3;o317,389;c61;b0;h6;w8;d3,CANTIDAD:&lt;ETX&gt;
+      &lt;STX&gt;H12;f3;o317,34;c61;b0;h6;w8;d3,ART:&lt;ETX&gt;
+      &lt;STX&gt;H13;f3;o318,491;c61;b0;h12;w13;d3,VAR4&lt;ETX&gt;
+      &lt;STX&gt;H14;f3;o292,389;c61;b0;h6;w8;d3,PESO:&lt;ETX&gt;
+      &lt;STX&gt;H15;f3;o293,491;c61;b0;h12;w13;d3,VAR5&lt;ETX&gt;
+      &lt;STX&gt;L16;f1;o241,757;l736;w1&lt;ETX&gt;
+      &lt;STX&gt;H17;f3;o241,34;c61;b0;h6;w8;d3,UBIC:&lt;ETX&gt;
+      &lt;STX&gt;H18;f3;o241,389;c61;b0;h6;w8;d3,CADUCA:&lt;ETX&gt;
+      &lt;STX&gt;H19;f3;o242,567;c61;b0;h12;w16;d3,VAR9&lt;ETX&gt;
+      &lt;STX&gt;H20;f3;o266,389;c61;b0;h6;w8;d3,FECHA ENTRADA:&lt;ETX&gt;
+      &lt;STX&gt;H21;f3;o267,567;c61;b0;h12;w16;d3,VAR8&lt;ETX&gt;
+      &lt;STX&gt;B22;f3;o189,156;c7,0,2;w5;h114;d3,VAR10&lt;ETX&gt;
+      &lt;STX&gt;H23;f3;o75,201;c61;b0;h14;w14;d3,BARRAA&lt;ETX&gt;
+      &lt;STX&gt;H24;f3;o75,236;c61;b0;h14;w14;d3,BARRAB&lt;ETX&gt;
+      &lt;STX&gt;H25;f3;o75,271;c61;b0;h14;w14;d3,BARRAC&lt;ETX&gt;
+      &lt;STX&gt;H26;f3;o75,306;c61;b0;h14;w14;d3,BARRAD&lt;ETX&gt;
+      &lt;STX&gt;H27;f3;o75,342;c61;b0;h14;w14;d3,BARRAE&lt;ETX&gt;
+      &lt;STX&gt;H28;f3;o75,376;c61;b0;h14;w14;d3,BARRAF&lt;ETX&gt;
+      &lt;STX&gt;H29;f3;o75,437;c61;b0;h14;w14;d3,BARRAG&lt;ETX&gt;
+      &lt;STX&gt;H30;f3;o75,471;c61;b0;h14;w14;d3,BARRAH&lt;ETX&gt;
+      &lt;STX&gt;H31;f3;o75,506;c61;b0;h14;w14;d3,BARRAI&lt;ETX&gt;
+      &lt;STX&gt;H32;f3;o75,541;c61;b0;h14;w14;d3,BARRAJ&lt;ETX&gt;
+      &lt;STX&gt;H33;f3;o75,576;c61;b0;h14;w14;d3,BARRAK&lt;ETX&gt;
+      &lt;STX&gt;H34;f3;o75,611;c61;b0;h14;w14;d3,BARRAL&lt;ETX&gt;
+      &lt;STX&gt;H35;f3;o75,141;c61;b0;h14;w14;d3,BARRAM&lt;ETX&gt;
+      &lt;STX&gt;H36;f3;o318,110;c61;b0;h12;w13;d3,VAR2&lt;ETX&gt;
+      &lt;STX&gt;L37;f0;o214,376;l102;w1&lt;ETX&gt;
+      &lt;STX&gt;H38;f3;o242,110;c61;b0;h12;w13;d3,VAR7&lt;ETX&gt;
+      &lt;STX&gt;H39;f3;o266,34;c61;b0;h6;w8;d3,EAN:&lt;ETX&gt;
+      &lt;STX&gt;H40;f3;o41,36;c61;b0;h12;w7;d3,Inventario Físico&lt;ETX&gt;
+      &lt;STX&gt;D0&lt;ETX&gt;
+      &lt;STX&gt;R&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;E*,1&lt;CAN&gt;&lt;ETX&gt;
+      &lt;STX&gt;&lt;RS&gt;1&lt;US&gt;1&lt;ETB&gt;&lt;ETX&gt;
+    </texto>
+  </etiqueta>
+  <etiqueta id="ContenedorUbicacionZPL">
+    <texto>
+      ^XA
+      ^FO200,232
+      ^BY2,2.5^B3N,N,94,N,N^FD999999999999^FS
+      ^FT246,362
+      ^CI0
+      ^A0N,39,54^FD999999999999^FS
+      ^FT721,378
+      ^A0N,20,27^FDeflow^FS
+      ^FO17,15
+      ^GB740,196,2^FS
+      ^FO15,111
+      ^GB738,0,2^FS
+      ^FO377,79
+      ^GB0,130,2^FS
+      ^FO15,143
+      ^GB735,0,2^FS
+      ^FT26,139
+      ^A0N,23,32^FDUDXCJ:^FS
+      ^FO15,175
+      ^GB735,0,2^FS
+      ^FT26,107
+      ^A0N,23,32^FDART:^FS
+      ^FT26,203
+      ^A0N,23,32^FDUBIC:^FS
+      ^FT386,107
+      ^A0N,23,32^FDCANTIDAD:^FS
+      ^FT386,139
+      ^A0N,23,32^FDPESO:^FS
+      ^FT386,171
+      ^A0N,23,32^FDENTRADA:^FS
+      ^FT386,203
+      ^A0N,23,32^FDCADUCA:^FS
+      ^FT26,35
+      ^A0N,23,32^FDArticulo:^FS
+      ^FT26,62
+      ^A0N,28,48^FDDESCRIPCION^FS
+      ^FT122,109
+      ^A0N,25,34^FDIDARTICULO^FS
+      ^FT122,141
+      ^A0N,25,34^FDUDSXCJ^FS
+      ^FT122,205
+      ^A0N,25,34^FDIDUBICACION^FS
+      ^FT530,109
+      ^A0N,25,31^FDCANTIDADUNIDADES^FS
+      ^FT530,141
+      ^A0N,25,34^FDpPESO^FS
+      ^FT530,173
+      ^A0N,25,34^FDFECHAENTRADA^FS
+      ^FT530,205
+      ^A0N,25,34^FDFECHACADUCIDAD^FS
+      ^FT26,378
+      ^A0N,20,25^FDInvFis^FS
+      ^FT26,169
+      ^A0N,20,28^FDEAN:^FS
+      ^FT122,173
+      ^A0N,25,34^FDpEAN^FS
+      ^FO15,79
+      ^XGR:SSGFX000.GRF,1,1^FS
+      ^PQ1,0,1,Y
+      ^XZ
+    </texto>
+  </etiqueta>
+  <etiqueta id="UbicacionReducidaIPL">
+    <texto>
+      &lt;STX&gt;R&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;C&lt;SI&gt;W748&lt;SI&gt;h&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;P&lt;ETX&gt;
+      &lt;STX&gt;F*&lt;ETX&gt;
+      &lt;STX&gt;B1;f3;o253,148;c6;w3;h177;d3,BARRAS&lt;ETX&gt;
+      &lt;STX&gt;H2;f3;o355,140;c61;b0;h28;w29;d3,TEXTOBARRA&lt;ETX&gt;
+      &lt;STX&gt;H3;f3;o39,719;c61;b0;h7;w7;d3,eStock&lt;ETX&gt;
+      &lt;STX&gt;D0&lt;ETX&gt;
+      &lt;STX&gt;R&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;E*,1&lt;CAN&gt;&lt;ETX&gt;
+      &lt;STX&gt;&lt;RS&gt;1&lt;US&gt;1&lt;ETB&gt;&lt;ETX&gt;
+    </texto>
+  </etiqueta>
+  <etiqueta id="UbicacionReducidaZPL">
+    <texto>
+      ^XA
+      ^MMT
+      ^PW812
+      ^LL0406
+      ^LS0
+      ^BY4,3,176^FT61,318^BAN,,N,N
+      ^FD999999999999999^FS
+      ^FT124,103
+      ^A0N,70,76^FH\^FD888888888888888^FS
+      ^FT378,378
+      ^A0N,28,28^FH\^FDeflow^FS
+      ^PQ1,0,1,Y
+      ^XZ
+    </texto>
+  </etiqueta>
+  <etiqueta id="UbicacionReducidaZPL_MIZRATEX">
+    <texto>
+      ^XA
+      ^FO115,215
+      ^BY2.4,2^B3N,N,200,N,Y^FD999999999999999^FS
+      ^FT85,165
+      ^CI0
+      ^A0N,100,70^FD888888888888888^FS
+
+      ^FT22,56
+      ^A0N,40,56^FDeFlow^FS
+      ^PQ1,0,1,Y
+      ^XZ
+    </texto>
+  </etiqueta>
+
+
+  <etiqueta id="UbicacionReducidaLucemaZPL">
+    <texto>
+      ^XA~TA0~JSO^LT0^MMT^MNW^MTT^PON^PMN^LH0,0^JMA^PR2,2^MD0^JUS^LRN^CI0^XZ
+      ^XA^LL0281
+      ^PW496
+      ^BY2,3,160^FT68,183^BCN,,N,N
+      ^FD>:P6D>5S8D>6LDI^FS
+      ^FO,71^FS
+      ^FT34,253^A0N,56,55^FH\^FDCODIGOTEXTO^FS
+      ^PQ1,0,1,Y^XZ
+    </texto>
+  </etiqueta>
+  <etiqueta id="UbicacionDobleIPL">
+    <texto>
+      &lt;STX&gt;R&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;C&lt;SI&gt;W748&lt;SI&gt;h&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;P&lt;ETX&gt;
+      &lt;STX&gt;F*&lt;ETX&gt;
+      &lt;STX&gt;B1;f3;o153,237;c6;w3;h89;d3,BARRASP1&lt;ETX&gt;
+      &lt;STX&gt;H2;f3;o70,250;c61;b0;h28;w27;d3,TEXTOBARRAP1&lt;ETX&gt;
+      &lt;STX&gt;H3;f0;o330,755;c61;b0;h7;w7;d3,eStock&lt;ETX&gt;
+      &lt;STX&gt;B4;f3;o292,237;c6;w3;h89;d3,BARRASP2&lt;ETX&gt;
+      &lt;STX&gt;H5;f3;o362,250;c61;b0;h28;w27;d3,TEXTOBARRAP2&lt;ETX&gt;
+      &lt;STX&gt;L6;f1;o177,720;l584;w2&lt;ETX&gt;
+      &lt;STX&gt;H7;f0;o13,24;c61;b0;h40;w39;d3,NIVEL&lt;ETX&gt;
+      &lt;STX&gt;H8;f0;o229,15;c62;b0;h51;w50;d3,NUMERONIVEL&lt;ETX&gt;
+      &lt;STX&gt;H9;f0;o38,140;c61;b0;h34;w42;d3,P1&lt;ETX&gt;
+      &lt;STX&gt;L10;f0;o0,135;l355;w2&lt;ETX&gt;
+      &lt;STX&gt;H11;f0;o229,140;c61;b0;h34;w42;d3,P2&lt;ETX&gt;
+      &lt;STX&gt;D0&lt;ETX&gt;
+      &lt;STX&gt;R&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;E*,1&lt;CAN&gt;&lt;ETX&gt;
+      &lt;STX&gt;&lt;RS&gt;1&lt;US&gt;1&lt;ETB&gt;&lt;ETX&gt;
+    </texto>
+  </etiqueta>
+  <etiqueta id="UbicacionDobleZPL">
+    <texto>
+      ^XA
+      ^MMT
+      ^PW812
+      ^LL0406
+      ^LS0
+      ^FT153,152^A0B,45,55^FH\^FDP2^FS
+      ^FT153,302^A0B,45,55^FH\^FDP1^FS
+      ^BY3,3,113^FT176,190^BCN,,N,N
+      ^FDpUBICACION2^FS
+      ^FT76,324^A0B,69,69^FH\^FDNIVEL pNIVEL^FS
+      ^BY3,3,112^FT176,324^BCN,,N,N
+      ^FDpUBICACION1^FS
+      ^FO101,197^GB667,0,3^FS
+      ^FO97,20^GB0,363,3^FS
+      ^FT200,375^A0N,52,62^FH\^FDpUBICACION1^FS
+      ^FT200,63^A0N,52,62^FH\^FDpUBICACION2^FS
+      ^PQ1,0,1,Y^XZ
+    </texto>
+  </etiqueta>
+
+  <etiqueta id="UbicacionDobleZPL_QR">
+    <texto>
+      ^XA
+      ^MMT
+      ^PW812
+      ^LL0406
+      ^LS0
+      ^FT254,157^A0N,48,48^FH\^FDP2^FS
+      ^FT543,296^A0N,48,48^FH\^FDP1^FS
+      ^FT135,409^BQN,2,8
+      ^FDLA,pUBICACION2^FS
+      ^FT603,211^BQN,2,8
+      ^FDLA,pUBICACION1^FS
+      ^FT70,324^A0B,68,69^FH\^FDNIVEL pNIVEL^FS
+      ^FO89,197^GB700,0,3^FS
+      ^FO87,14^GB0,380,3^FS
+      ^FT106,70^A0N,48,48^FH\^FDpUBICACION1^FS
+      ^FT394,374^A0N,48,48^FH\^FDpUBICACION2^FS
+      ^PQ1,0,1,Y^XZ
+    </texto>
+  </etiqueta>
+  <etiqueta id="UbicacionDobleZPL_3x2">
+    <texto>
+      ^XA
+      ^FO140,75
+      ^BY2,2^B3N,N,88,N,N^FDBARRASP2^FS
+      ^FT180,65
+      ^CI0
+      ^A0N,52,52^FDTEXTOBARRAP2^FS
+      ^FO140,218
+      ^B3N,N,88,N,N^FDBARRASP1^FS
+      ^FT180,360
+      ^A0N,52,52^FDTEXTOBARRAP1^FS
+      ^FO71,191
+      ^GB520,0,2^FS
+      ^FO70,23
+      ^GB0,354,2^FS
+      ^FT120,136
+      ^A0B,52,68^FDP2^FS
+      ^FT120,320
+      ^A0B,52,68^FDP1^FS
+      ^FT50,362
+      ^A0B,52,90^FDNIVEL^FS
+      ^FT50,120
+      ^A0B,52,70^FDpNUMERONIVEL^FS
+      ^FT598,390
+      ^A0B,20,25^FDeflow^FS
+      ^PQ1,0,1,Y
+      ^XZ
+    </texto>
+  </etiqueta>
+  <etiqueta id="ContenedorSerieIPLFACA">
+    <texto>
+      &lt;STX&gt;R&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;C&lt;SI&gt;W746&lt;SI&gt;h&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;P&lt;ETX&gt;
+      &lt;STX&gt;F*&lt;ETX&gt;
+      &lt;STX&gt;H1;f3;o38,693;c61;b0;h12;w9;d3,eStock&lt;ETX&gt;
+      &lt;STX&gt;W2;f0;o261,6;h768;l170;w2&lt;ETX&gt;
+      &lt;STX&gt;H3;f3;o401,21;c61;b0;h14;w14;d3,pDESCRIPCION&lt;ETX&gt;
+      &lt;STX&gt;H4;f3;o332,21;c61;b0;h12;w12;d3,EAN:&lt;ETX&gt;
+      &lt;STX&gt;H5;f3;o334,90;c61;b0;h13;w13;d3,pEAN&lt;ETX&gt;
+      &lt;STX&gt;H6;f3;o365,91;c61;b0;h13;w13;d3,pIDARTICULO&lt;ETX&gt;
+      &lt;STX&gt;H7;f3;o365,22;c61;b0;h12;w12;d3,ART:&lt;ETX&gt;
+      &lt;STX&gt;H8;f3;o331,341;c61;b0;h12;w12;d3,CNT:&lt;ETX&gt;
+      &lt;STX&gt;H9;f3;o332,478;c61;b0;h13;w13;d3,pIDCONTENEDOR&lt;ETX&gt;
+      &lt;STX&gt;H10;f3;o364,341;c61;b0;h12;w12;d3,ENTRADA:&lt;ETX&gt;
+      &lt;STX&gt;H11;f3;o368,479;c61;b0;h13;w13;d3,pFECHA&lt;ETX&gt;
+      &lt;STX&gt;H12;f3;o432,21;c61;b0;h12;w12;d3,Artículo:&lt;ETX&gt;
+      &lt;STX&gt;H13;f3;o38,24;c61;b0;h12;w7;d3,Series&lt;ETX&gt;
+      &lt;STX&gt;H14;f3;o239,315;c61;b0;h17;w17;d3,pINDICE&lt;ETX&gt;
+      &lt;STX&gt;H15;f3;o294,205;c61;b0;h12;w12;d3,ZONA:&lt;ETX&gt;
+      &lt;STX&gt;H16;f3;o294,23;c61;b0;h12;w12;d3,UD:&lt;ETX&gt;
+      &lt;STX&gt;H17;f3;o296,291;c61;b0;h13;w13;d3,pZONA&lt;ETX&gt;
+      &lt;STX&gt;H18;f3;o296,89;c61;b0;h13;w7;d3,pUDCAJA&lt;ETX&gt;
+      &lt;STX&gt;B19;f3;o186,62;c0,3;w3;h102;r0;d3,pIDSERIE&lt;ETX&gt;
+      &lt;STX&gt;H20;f3;o86,280;c26;b0;h14;w14;d3,pIDSERIE&lt;ETX&gt;
+      &lt;STX&gt;D0&lt;ETX&gt;
+      &lt;STX&gt;R&lt;ETX&gt;
+      &lt;STX&gt;&lt;SI&gt;l13&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;E*,1&lt;CAN&gt;&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;g0&lt;ETX&gt;
+      &lt;STX&gt;!BˆF‡&amp;DÆ‚"$ &amp;ƒEü"$&amp;C»‚"$¡&amp;ƒEü"$&amp;C»‚"$œ&amp;Eÿ"$&amp;C»‚"&amp;"$ˆ&lt;ETX&gt;
+      &lt;STX&gt;(&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;g0&lt;ETX&gt;
+      &lt;STX&gt;!CÈF‡&amp;Cð"&amp;BäA‹‚"&amp;BâƒAŒ‚"&amp;BâƒA‚"&amp;BáAŽ"&amp;Aâ…„†…‚Šƒ„ƒŠ…‚Š‚‚…„‚Š‚–ƒ‰ƒ‚…‚…‚"&amp;Aáƒƒƒƒ‚„ƒƒ‚Š‚„‚Šƒ‚„ƒ‰ƒ ƒ‹‚„‚Š‚Šƒƒƒƒƒƒƒ„‚ƒƒ•ƒ‰ƒƒ…ƒƒƒƒƒ„‚ƒƒƒƒƒƒ‰…‚"&amp;Aâ‚ƒƒ‚‚‚‚ƒƒ‚‚†‚…‚‰…‹ƒƒ…†…‚‹‚…‚‰ƒŠƒƒƒ„ƒ‚ƒ…‚‚ƒ†‚Š‚‚ƒ†„ƒˆƒ‚„ƒ…‚‚ƒƒƒ„‰†‚" &lt;ETX&gt;
+      &lt;STX&gt;&amp;Açˆƒƒ„‚ƒƒ„„‚‡ƒ„ƒƒ‚…ƒˆ‚„ƒƒƒ„‚ƒ„„‚‰ƒŠ‚‡‚„ƒƒƒ„…‚„‚‹„ƒƒƒƒƒŽ‚‚‡ƒ‰‚Œ‚"&amp;Aå‚ƒ…ƒƒƒƒƒƒƒ„‚ˆƒ„ƒƒ‚„ƒ‰ƒƒƒƒƒƒƒƒƒ„‚‰ƒƒ†‚ˆ„‰ƒ‰‚„‚ ‹„ƒƒ‚„ƒ‰‚ƒƒ‰ƒ„‚ƒ„‰ƒ"&amp;Aèƒ…‚…‚ƒ‚„‚ƒ‚ˆ‚†‚‚ƒ…ƒ‰„‚…‚„„‚„ˆƒƒ‡‚‡ƒƒ†‚‚ˆ…‚‹ˆ‚ƒ…‚‰‡‚‚†‚„ˆƒˆ‡"&lt;ETX&gt;
+      &lt;STX&gt;&amp;Aá‚„„„‚ˆ‚„‚‚‚‹ƒ‡…‡ƒŠ‚‡‚‡‚‚‚ƒˆ‚‚ƒˆ‡‚ƒ‚…ƒƒ…„‚‡ƒ‡‚†ƒ…‚‚…‚ƒ„„ƒ‚…Š‚"&amp;Aá‚„ƒ„‚‰ƒƒƒƒ‚„…ƒ‰ƒˆƒ……‚ˆƒ„ƒƒ‚„†‚ƒƒ‰ …ƒƒ‚„ƒƒ‚„ƒ„‚Š‚ƒƒƒƒ‰…ƒƒƒƒ‚„ƒƒƒƒƒƒ‚…‚‰‚"&amp;Aàƒ‡„†…‚ƒƒ‚‹ƒ…„‚…„†„‚†‚†ƒƒ‚‹‚…ˆ†ƒ‚ƒ„ƒƒ‚„ƒ…‹†ƒƒ…ˆ‚„‚„‚„‚„‚„‚ƒƒ…ƒˆ"&lt;ETX &gt;
+      &lt;STX&gt;&amp;Aßƒ„ƒ‚ƒ…ƒ„‚ˆ‚‰„‚ƒƒ…„ƒ‡„ƒ„ƒƒ‚ˆ‚Š„‚†ƒ‚„ƒƒ‚„‡…‡ƒ‰…‚„…‚ˆ‚„…‚„„ƒ„ƒƒ‡ƒ…ƒ"&amp;Aß‚„‚ƒ‚„ƒƒ‚„ƒ‰‚Šƒƒ‚„ƒƒƒƒƒƒ‚„‚„ƒƒƒ‰‚Š‚ „‚…‚ƒƒ„‚ƒƒ‰ƒ‰‚Šƒƒ‚ƒ„ƒ‚Šƒ„‚ƒƒƒƒƒƒ„‚ˆƒ„ƒ"&amp;Aà‚Žƒˆ„‡„‹‚Š„‚„‚•„‡„œ‚…ƒ‚‚Š‚‰‰ƒ‚–ƒ"&amp;Aàƒ˜‚‰ƒœ‚‡ƒ¥ƒ—‚–º„"&lt;ETX&gt;
+      &lt;STX&gt;&amp;AàƒŒŠ‚‰ƒœ‚œ‚‰ƒ§‚‘„ƒƒ‚ƒ³ƒƒƒƒ‚"&amp;Aà‚Ž‚‰ƒˆƒœ‚œƒˆƒ¥‚—ƒƒ’³‚„…‚‚"&amp;Aß‚Š‚Š‚œ‚Š¤‚•‚„‚Ç„‚„‚"&amp;Aß‘‹¨‚¯—…Ç……"&amp; "$†&amp;AÛƒƒ‚„‚„ƒƒƒƒ‚„‚„‚„ƒ‰‚„ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ‚„ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ…ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ‰‚„‚„‚„‚„‚„‚"&lt;ETX&gt;
+      &lt;STX&gt;&amp;AÛƒ‚„‚„‚„‚„‚„‚„‚„‚„ƒ„„‚„‚„‚„‚„‚„‚„‚„‚„‚ƒ„ƒ‚„‚„‚„‚„‚„‚„‚„‚„‚„„‚‚„‚„‚„‚„‚„‚„‚„‚„‚„‚ƒƒ„‚„‚„‚„‚„‚„"&amp;AÛ¶„º„º„»ƒ¤"&amp;AÛ¶ƒº…»ƒ º„§"&amp;AÜµƒºƒ‚ºƒºƒ¨‚‚"&amp;AÛ¶„º„º„º„«"&amp;AÛ¶…¹„ºƒ¼„©"&amp;AÛ´‚„¹„¹„½ƒ©‚‚"&amp;AÛ¶„º„º„»„­"&lt;ETX&gt;
+      &lt;STX&gt;&amp;AÞ„‚„‚„‚„‚„‚„‚„‚„‚‚„„‚ƒƒƒƒƒƒ„‚„‚ƒƒƒƒ„‚ƒ‰„‚„‚„‚„‚„‚„‚„‚„‚„‚‚„„‚ƒƒ„‚„‚„‚„‚„‚„‚„‚ƒ„‚ƒ„‚„‚„‚„‘‚"&amp;AÙ„ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ„‚ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ‚„ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ„‚ƒƒƒƒƒƒƒƒƒ‚‚"&amp;Cð"&lt;ETX&gt;
+      &lt;STX&gt;&amp;Aáƒƒƒ‰‚„‚‘‹‚„‚Šƒƒ‚…‚ƒƒƒ‚„‚Šƒƒƒ‰‚„‚‹„‚¨‚„‚‚„‚Š‚„‚…ƒ‹"&amp;Aà„‚„ˆ„‚„ˆ„‚ƒŠƒ‚„ˆ„‚„ˆ„‚„ƒƒ‚„‚„‚„‰ƒ‚„ˆ„‚„‰ƒ‚„‰ƒ‚„‚„‚„ƒ…ƒ‚„ ‰…ƒ‚„‰ƒ‚„ˆ‹"&amp;Aß‹ˆ‰‡‹‰‹†‹ˆ‹„”ˆ‹…Œˆ‹†™…‹†‚†Š‡ŠˆŒ"&amp;AÞ…‹‡Œ‡„†ƒ–†ŒƒŽˆ‹„š„„„…‹„‡Œ"&amp;AÞ‰ƒ…ŠˆŽ…„Ž…„•ˆŠƒˆŠƒ›„„ƒ„‚Š„Ž…‚‚Š" &lt;ETX&gt;
+      &lt;STX&gt;&amp;AÞŠˆ‹‡‡‹…ŒˆŒ„•†Œ…‡‹„š…‹„†„‹…ŒˆŒ"&amp;AÞ‹‰‰‡‡‹‡Š‰Š…–…‹‡Ž„‹†™…‹‚ˆ„Š‡Š‰Œ"&amp;AÜ‚Š‰Š‡Œ‚…‰ˆŠ‰Š‡•„ŠˆŠƒ„Š‡—‚„Šƒ‰ƒ‰ˆŠ‰Šƒ"&amp;AÜŒ Š‰‡„‹†‹‰‹…”†‹ˆ„‹…š…‹‚Š‚Š‡Š‹Š"&amp;AÝŠ‰‹‡„„ˆ‰„„†ŒˆŒ…‹ƒ›„™‹„ŠŠ"&amp;AÝŠ‰Šˆ„„Ž‰Š„„‚„‰ˆŠ‰Š‚‚ƒŠƒƒƒƒƒƒ‚Š„šŠ„Ž‰Š"&lt;ETX&gt;
+      &lt;STX&gt;&amp;AÜ‹‰‹‡„‹…Œ‹ŠŽŠ†‹ŠŽ‚‹“‹…¤…ŒŠŠ"&amp;AÜ„‚‰‡‘ƒ‹‡Šƒ‚„ŒŽ‹…‹Œ‹‚‹”‹…£‡‹‚‚„Ž"&amp;AÛƒƒ‚Š‡‘ƒ‰ˆŠƒƒƒŠ‚Œ‚Š„Š‹‚Š”Š‚„¢ˆŠƒƒƒŽ"&amp;AÜŸ‡“ ‹† ŽŠ†‹ŒŒ‹”‹…£‡¡"&amp;AÝž‡ „¡‰†ŒŒ˜Š…ƒŠ„¥„¡"&amp;AÝˆ „¡‰ˆŠ—‰ƒ‚„‚Š„¥„¡"&amp;AÜŸ‡Ÿ…¡ŽŠ†‹˜ˆ–…¤… "&amp;AÜŸ‡Ÿ‡ž‹…‹—ˆ—…£‡¡"&lt;ETX&gt;
+      &lt;STX&gt;&amp;AÛ ˆˆ‚Š„Š—ˆ–‚„¢ˆ¡"&amp;AÜŸ‡Ÿ†ŸŠ†‹‰›ˆ—…£‡Ÿ"&amp;AÞ‡ „ ‰†Œˆœˆ–„¥„¡"&amp;AÞŠ‚ƒƒŠˆ „ƒ‰ˆŠ„ƒœ„‚‚–„¥„ƒ"&amp;AÞŠˆ‹‡Ÿ…ŒˆŒŠ†‹ˆ… ™…¤…Œˆ‹"&amp;AÞŒˆ‰‡‹“‡Šˆ‹‹…‹‡‡˜…‘‘‡Š‰Š"&amp;AàŠˆŠ‡‹‚ˆŠˆŠ‚Š„ŠˆŠ„‚‹ˆƒƒƒƒŠ‚„ƒˆŠ‰Š"&amp;Aß‹ˆ‰‡‹‚’†‹ˆ‹Š†‹†Œ‡‹”‹…ƒ‡Šˆ‹"&lt;ETX&gt;
+      &lt;STX&gt;&amp;AÞŽ„‹‡Šƒ“„…‹‘‰†Œ„ˆ‹”Š„’ƒ„Ž„Ž"&amp;AßŽƒŠˆŠƒ‚„‚‹‚‚‰ˆŠ„‰Š”Š„‚„„‚‹‚‚"&amp;Aß‚‹‡‹„…’Š†‹…ˆ‹“‹…„…Ž"&amp;Aáœ…‹„ƒŸŠ‚ „…‹†ƒ‹‡‚„‚„Œ……„‚›"&amp;Aá›‡Š„ƒ„—ƒ‰„‚„Š‡‚‹‡„‚„‚‹‚„…‚‚Š„ƒ—ƒ"&amp;Aãš…‹…„œ‰•†‹†ž†™…ŠŒ„œ"&amp;Aã›„Š‡ƒœ‰•†Œ„ „š„Ž‰Žƒœ•‚„…‚" &lt;ETX&gt;
+      &lt;STX&gt;&amp;Aäš„ŠˆŽ„šŠ•ˆŠ„‚‚œ„š„Ž‰Ž„š‹…„ƒƒ‚„ƒƒ‚"&amp;Aæ–†‹ˆŒ…—Œ–†‹ˆ…™…Œ‹„˜"&amp;Aç•†‹‰‹…”‚Š—‡‹ˆœ†™…‹‹‡•‹„…‚„‚…„‚„‚"&amp;Açƒ‚‡Š‰Šˆƒ‚ Š–ˆŠ‰‚‚—ˆ–‚„Š‰ˆƒ‚Šƒƒ‚„ƒƒƒ„‚ƒƒƒƒ„"&amp;Aì‡‹‰‹‡‘•ˆ‹Œ˜‡˜…‹ŽŠ‡“„"&lt;ETX&gt;
+      &lt;STX&gt;&amp;Að‚„‚‹„‚‘‹„‚„‚—„‚„‚„‹ƒƒ‚‚„‚„ƒƒ‚‹……„‚Š‚–‚„‚Š‚„‚‘„„‚‚„‚„…‚„‚„‚"&amp;Að‚„‚Š‚„‚‚……„‚„‚„‚„‹ƒƒ‚ƒƒƒƒƒƒ‚Š‚„‚„‚„‚ …„‚–‚„‚…„ƒƒ‚‹„ƒƒ„‚ƒƒƒƒ‚„ƒƒƒƒ‚"&amp;D„„ƒ‘‹"&amp;Cû‚‡…„‚„‚…„‚„‚"&amp;Cö„ƒ„ˆƒƒƒƒ„‚ƒƒƒƒ"&amp;Dƒ†"&amp;Cø‚„‚ƒ…ƒ„‚„…‚„‚"&amp;Có„ƒƒƒ‚…‚‚„‚„‚„‚„‚ —"&lt;ETX&gt;
+      &lt;STX&gt;&amp;Cÿ‰"&amp;Cõ‚„‚ƒ‰…–‚"&amp;Aíƒ‰ƒƒ‚Š‚ƒƒ‚–‘ƒƒƒ‚‰‚‚…‚ƒƒƒ›‚–ƒƒƒ‚Šƒ‚„‚…„ƒƒ‚"&amp;Aî‚Šƒ‚‰‚—‚¯’‰‘‚†³‚œŽ"&amp;B …ƒ­ƒ›‚‚…‚‘‰‚— ˜•‚„‚‚‚„‚„…‚„‚"&amp;Að‚…‚•‘‚„ƒ­ƒ›‚‚…‚‚‰‚–ƒ–‚•ƒƒƒ‹ƒƒƒƒƒ‚„ƒƒ‚"&amp;Að‚†§…ƒ®‚›‘‚†šƒ—˜œ‰"&lt;ETX&gt;
+      &lt;STX&gt;&amp;Aïƒƒƒ‚ƒ‚‰—‚–˜œ‚ƒ„‚³‚‘„‚„ƒ‚„‚…"&amp;Aî‚ƒ‚„‚ƒ‚ƒƒƒ‚‘„‚–‚‘…‚•ƒƒ‚ƒƒƒ––‚„‚ƒƒƒƒƒƒƒƒƒ‚"&amp;Aø‚‘ƒ–ƒ‚—‚Æ‚ƒ‚“„‚³‚œ" &amp;Að‚…‚§ƒƒƒ‚ƒƒ•ƒ•ƒƒ‚ƒƒƒ•ƒƒ‚ƒƒ‚ƒƒƒ•‚„‚ƒ"&amp;Aðƒƒ‚–‘‚„ƒ„ƒ•ƒ•‚„‚ƒƒƒ‚ƒ‚„‚‚„ƒ„ƒ„ƒƒƒ‚´"&amp;Añ‚ƒ‚®ƒ®‚›‘‚†‘‰‚—˜–…ƒ "&lt;ETX&gt;
+      &lt;STX&gt;&amp;Aó—ƒ‚Š—‚–˜’‰‚‚…‚³‚‚„‚„Ž„‚"&amp;Aó—ƒ‚Š‚–‚–‚—‘‚‰‚‚…‚³‚ƒƒƒƒƒ‚Šƒ‚"&amp;Aó—ƒ‚‰‚—‚Ì‘‚†³‚¡‰"&amp;Aòƒ‚¨…ƒ­ƒ›‚‚…‚‘‰‚— —‚¢‰‚‚"&amp;Añ‚ƒ‚–‘‚„ƒ‚ƒƒ‚ƒƒƒƒƒƒ‚ƒƒƒ‚ƒ‚„‚ƒƒƒƒƒƒ„ƒƒƒƒƒ‚Šƒ‚‹„‚—…"&amp;Aõ‚¨ƒ„ƒ•‚–ƒƒ‚‚„‘ƒ„‚”‚„ƒ‚„‚‚„ƒ¦‰"&lt;ETX&gt;
+      &lt;STX&gt;&amp;Aóƒ•ƒ•ƒƒ‘ƒƒ‚ƒƒƒƒƒƒ•ƒƒ’„‚’ƒƒ•ƒƒ‚‚„‚„…‚„ˆ„‚¨‚"&amp;Aô———…‘…‘…———…ƒƒƒƒ‚„ƒƒ„„ƒƒ„œ‚„‚"&amp;DˆŠ"&amp;Cò‚„‚…„‚ „‚ƒ„ƒ‚…—„‚"&amp;Còƒƒƒƒƒƒƒƒƒ‚„ƒ‚„‚„‚…Šƒƒƒ"&amp;D…ƒŽ†"&amp;Cð„‚„‚„‚„„‹ƒ„‚„‚……„‚„"&amp;Cð‚ƒƒƒ‚„ƒƒƒ‚Šƒ‚„ƒƒ‚„‚„ƒƒƒƒ‚"&amp;D„”"&lt;ETX&gt;
+      &lt;STX&gt;&amp;Cò‚„‚‰–ƒ‚„‚„‚…„‚„‚"&amp;Còƒƒƒƒ‚ƒ–ƒƒƒƒƒƒ„‚ƒƒƒ‚"&amp;Cù‡˜"&amp;Cõ‚„‚ƒ›……Š‚„‚"&amp;Cõƒƒƒ‚—ƒ„‚…„…ƒƒ‚"&amp;Cüž"&amp;Cø‚ƒ‚‚„‚‹„‚"&amp;Cøƒ‚Š’‚ƒ ƒƒƒ‚…„‚"&amp;CýŠ–„ƒ"&amp;CûŠ‚–‚„‚‚…"&amp;Cûƒƒƒƒ„‚„ƒ‚„ƒƒ‚"&amp;D‚„"&amp;D„¡ƒ‚"&amp;Cÿ„¡ƒƒ"&amp;D…¡"&amp;Dˆ„–"&amp;D„"&amp;D”"&amp;D‘……"&lt;ETX&gt;
+      &lt;STX&gt;(&lt;ETX&gt;
+      &lt;STX&gt;&lt;RS&gt;1&lt;US&gt;1&lt;ETB&gt;&lt;ETX&gt;
+    </texto>
+  </etiqueta>
+
+  <etiqueta id="ContenedorIPLFACA">
+    <texto>
+      &lt;STX&gt;R&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;C&lt;SI&gt;W735&lt;SI&gt;h&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;P&lt;ETX&gt;
+      &lt;STX&gt;F*&lt;ETX&gt;
+      &lt;STX&gt;B1;f3;o189,152;c7,0,2;w5;h110;d3,VAR10&lt;ETX&gt;
+      &lt;STX&gt;H2;f3;o81,197;c26;b0;h20;w20;d3,BARRAA&lt;ETX&gt;
+      &lt;STX&gt;H3;f3;o81,232;c26;b0;h20;w20;d3,BARRAB&lt;ETX&gt;
+      &lt;STX&gt;H4;f3;o81,267;c26;b0;h20;w20;d3,BARRAC&lt;ETX&gt;
+      &lt;STX&gt;H5;f3;o81,302;c26;b0;h20;w20;d3,BARRAD&lt;ETX&gt;
+      &lt;STX&gt;H6;f3;o81,337;c26;b0;h20;w20;d3,BARRAE&lt;ETX&gt;
+      &lt;STX&gt;H7;f3;o81,372;c26;b0;h20;w20;d3,BARRAF&lt;ETX&gt;
+      &lt;STX&gt;H8;f3;o81,432;c26;b0;h20;w20;d3,BARRAG&lt;ETX&gt;
+      &lt;STX&gt;H9;f3;o81,467;c26;b0;h20;w20;d3,BARRAH&lt;ETX&gt;
+      &lt;STX&gt;H10;f3;o81,502;c26;b0;h20;w20;d3,BARRAI&lt;ETX&gt;
+      &lt;STX&gt;H11;f3;o81,537;c26;b0;h20;w20;d3,BARRAJ&lt;ETX&gt;
+      &lt;STX&gt;H12;f3;o81,572;c26;b0;h20;w20;d3,BARRAK&lt;ETX&gt;
+      &lt;STX&gt;H13;f3;o81,607;c26;b0;h20;w20;d3,BARRAL&lt;ETX&gt;
+      &lt;STX&gt;H14;f3;o81,137;c26;b0;h20;w20;d3,BARRAM&lt;ETX&gt;
+      &lt;STX&gt;H15;f3;o40,699;c26;b0;h12;w8;d3,eStock&lt;ETX&gt;
+      &lt;STX&gt;W16;f0;o210,19;h732;l196;w2&lt;ETX&gt;
+      &lt;STX&gt;H17;f3;o385,44;c26;b0;h13;w13;d3,VAR1&lt;ETX&gt;
+      &lt;STX&gt;L18;f1;o340,747;l727;w2&lt;ETX&gt;
+      &lt;STX&gt;H19;f3;o271,44;c26;b0;h6;w6;d3,CONFIRM:&lt;ETX&gt;
+      &lt;STX&gt;H20;f3;o273,108;c26;b0;h13;w13;d3,VAR6&lt;ETX&gt;
+      &lt;STX&gt;L21;f1;o308,747;l727;w2&lt;ETX&gt;
+      &lt;STX&gt;L22;f0;o212,379;l130;w2&lt;ETX&gt;
+      &lt;STX&gt;L23;f1;o276,747;l727;w2&lt;ETX&gt;
+      &lt;STX&gt;H24;f3;o337,108;c26;b0;h13;w13;d3,VAR2&lt;ETX&gt;
+      &lt;STX&gt;H25;f3;o303,44;c26;b0;h6;w6;d3,UDXCJ:&lt;ETX&gt;
+      &lt;STX&gt;L26;f1;o245,747;l727;w2&lt;ETX&gt;
+      &lt;STX&gt;H27;f3;o306,108;c26;b0;h13;w13;d3,VAR3&lt;ETX&gt;
+      &lt;STX&gt;H28;f3;o335,44;c26;b0;h6;w6;d3,ART:&lt;ETX&gt;
+      &lt;STX&gt;H29;f3;o239,44;c26;b0;h6;w6;d3,LOTE:&lt;ETX&gt;
+      &lt;STX&gt;H30;f3;o241,108;c26;b0;h13;w13;d3,VAR7&lt;ETX&gt;
+      &lt;STX&gt;H31;f3;o335,388;c26;b0;h6;w6;d3,CANTIDAD:&lt;ETX&gt;
+      &lt;STX&gt;H32;f3;o337,460;c26;b0;h13;w13;d3,VAR4&lt;ETX&gt;
+      &lt;STX&gt;H33;f3;o304,388;c26;b0;h6;w6;d3,PESO:&lt;ETX&gt;
+      &lt;STX&gt;H34;f3;o306,460;c26;b0;h13;w13;d3,VAR5&lt;ETX&gt;
+      &lt;STX&gt;H35;f3;o271,388;c26;b0;h6;w6;d3,ENTRADA:&lt;ETX&gt;
+      &lt;STX&gt;H36;f3;o274,460;c26;b0;h13;w13;d3,VAR8&lt;ETX&gt;
+      &lt;STX&gt;H37;f3;o239,388;c26;b0;h6;w6;d3,CADUCA:&lt;ETX&gt;
+      &lt;STX&gt;H38;f3;o242,460;c26;b0;h13;w13;d3,VAR9&lt;ETX&gt;
+      &lt;STX&gt;H39;f3;o407,44;c26;b0;h6;w6;d3,Artículo:&lt;ETX&gt;
+      &lt;STX&gt;D0&lt;ETX&gt;
+      &lt;STX&gt;R&lt;ETX&gt;
+      &lt;STX&gt;&lt;SI&gt;l13&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;E*,1&lt;CAN&gt;&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;g0&lt;ETX&gt;
+      &lt;STX&gt;!C¥DÏ&amp;A«"&amp;A«ƒ"&amp;A¬ƒA¬‚"&amp;A¨‚ƒ‚A¬‚"&amp;A§ƒA°ƒ"&amp;A§ƒA­‚"'€€Ãƒ ˜ˆ€Àƒ€¸€†Æã€¸ŒŽ€à€°ˆ€Âð˜€Ž€ƒ€¸€Ž‡€ð€Œ„Âƒ°€Ž€€€€€€€€€€€€€€"&amp; ‚…ƒŽƒ¨‚—ƒƒ—‘‹‚’ƒ‹ƒŠƒŠ„ƒƒŠƒž"'€ðñœŒ ð€†€ãÃŒ¼ƒÏ‡‚˜¸€à€™Žžàñ€†€Æƒø˜€Žƒ‡¸˜ŒŒÀˆ€€€€€€€€€€€€€€"&lt;ETX&gt;
+      &lt;STX&gt;'€ð¸ˆŽÃàð€Œ€Ãã˜ˆ‡Çƒ€œœ€ÀƒðžŽÆáð€†€ÂÃ¹¸€†Çƒ¸˜œŽÀ€€€€€€€€€€€€€€"'€€°€œ €ðÀ‡ðÀÃŒ€‡‡†‚œ˜€ààŽŽ¼œð€ƒ€€Ž˜€€Žƒ˜€ˆŒàˆ€€ €€€€€€€€€€€€"'€€ð€¸ˆÌÃ°€††À£Ž†Çð€ØÀƒÇ‚¸ŒÀÃƒ€€ŒØ€€œŽœ€ ˜ð€Ž€€€€€€€€€€€€€€"&lt;ETX&gt;
+      &lt;STX&gt;'€€âÁ±¸œŽÃƒ°€Ž‚‡àá€ŽŽÇñ€˜„Àƒã¸Œ€Ãƒ€˜ŒŽÀ°œŽŽÂá¸°€Ž€€€€€€€€€€€€€€"'€àƒ¸ˆÎÃ¸€ã‚€ãŽ‚ã˜€Œ‚à€Æ‡¼ŽÀÀƒ€øŽ‡˜€øƒŒâŒð€†€€ €€€€€€€€€€€€"'€°€Ž‡Š€Âà€œÀãÁ€€ÇÁÇâ°œ€Çƒð€Ž‡Î‡ðà€€‡Çƒ˜€‡ÇƒœŒŽà€€€€€€€€€€€€€€€€"&lt;ETX&gt;
+      &lt;STX&gt;'€°€Ž‡†Ãá°€ŽÀãá€€ÆÃÃñ°œ€Çƒð€Ž†Æƒð°€€ÇÃ˜€‡Çƒ°œŒŽàÁ€€€€€€€€€€€€€€€"'€¸€Ž‡ŽÀÁ£€¼àáààâÁÇòðŒÀ‡‚ð€Æ‡Ž°à€ÀƒÃƒœÀÃƒ‡„Ž†à€€€€ €€€€€€€€€€€€"'€ŒÀÇƒœŒƒã°ðàÀƒàá€Ž–à…àŽàÃÃŒŒœàà„‡‡àá‡‡‡‡‚°€†€€€€€€€€€€€€€€"&lt;ETX&gt;
+      &lt;STX&gt;'€ŒÆãñ˜œ‚Çð¸ˆÎÃãð€ŒŽàƒà€Œ€ÇáñˆœŽàà¸€‡àñ€ž†ÇÃ¸€†€€€€€€€€€€€€€€"&amp;Šˆ‚‹‚‰…ˆƒ‚’‹‚ƒƒ„ƒŠ„ˆ… ƒŠ‚‚ƒ‚Š‚‘‚‰ƒ•ƒŠ‚………‘ Š‚"&amp;Šƒ„ƒ‰ƒ‹‚ƒ‡‚ƒ‚‘ƒˆ‚‚…ƒƒ…ƒ‚‹—‚‰„ƒŠƒ‹ƒ‚‚ƒŠ‚Š’"'€°¸€Ž€ãÁ¸€€‡ÀñŒ€Àá±°Œ€€€˜€à°€€†á±€€Ž€á€¸€†ÀÀ€€€€€€€€€€€€€ €€"&lt;ETX&gt;
+      &lt;STX&gt;&amp;Š”‹…ˆ†£‚¡…ˆ…­‚Ÿƒ›"&amp;ˆƒ•Š…ˆ…¤ƒ¡„ˆ„­ƒ ƒœ¼Š‚"&amp;ˆƒ‚ƒ‚Šƒ‰ƒ¦ƒ¡„‰ƒ­ƒ›ƒƒƒƒ‚‘„‚ºƒƒƒƒƒƒ‚"&amp;‰’‚‹§‚¯‚®‚…Ù……"&amp;‚œ‚£‚ ¢½›„‚„‚–‚Æ‚„‚"&amp;žÁA¡"&amp;"$ƒ&lt;ETX&gt;
+      &lt;STX&gt;(&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;g0&lt;ETX&gt;
+      &lt;STX&gt;!CÅDÏ&amp;"$‚'˜†Ãá°˜Œ†Ãá ˜Œ†Ãá°˜œ†Ãàñ¸œŽÇãñ¸œŽÃãñ¸œŽÇãñ¸œ€Ãá°˜Œ†€€€€€€€€€€€€€€"'œŽÇãñ¸œŽÇãñ¸œŽÇãñ¸œŽÇáñ¸œŽÇãñ¸œŽÃãñ¸œŽÇãñ¸œ †Çãñ¸œ†ƒ€€€€€€€€€€€€€"&amp;ƒÄ„È…È…È„ª"&amp;„Ã…ÇƒÊ„Ê„¬"&amp;„Á‚„Æ„‚Ç„Êƒ­ƒƒ"&amp;ƒÄ…Ç…È…È…²"&amp;‚ÅƒÊ„ÊƒÈ„³"&amp;‚ÅƒÊ„ÊƒÇ‚‚ƒ´"&amp;ƒÄ„È…È…Èƒµ"&lt;E TX&gt;
+      &lt;STX&gt;&amp;„Ã…ÇƒÈ„Ê„¶"&amp;„Á‚„Æ„‚Ç„Êƒ¹"&amp;ƒÄ…ÇƒÈ…È…¸"'¼žÏçóù¼žÏçð¹œŽÇçñ¸œžÇàóù¼žÏçóù¼žÃçóù¼žÏãó¹¼‚Ïçóùüÿÿÿ€€€€€€€€€€€€"'œŽÇãñ¸œŽ Çãñ¸œŽÇãñ¸œŽÇáñ¸œŽÇãñ¸œŽÃãñ¸œŽÇãñ¸œ†Çãñ¸œÿÿÿ€€€€€€€€€€€€"&amp;BØ”"&amp;‹‚„‚‚„‚º‚„‚Šƒƒ‚„‚…‚ƒƒƒ‚„‚„‚‹„‚„‚Š‚„‚‚„‚µ…—…Š‚„‚Š‘"&lt;E TX&gt;
+      &lt;STX&gt;'€ð¸€ŒÇ°˜„€Ãá€¸œ€Çãñ¸œŽ‡Àñ˜ˆŽ‡€ð¸„€Ãá°˜€†ƒà€˜œ€Ç£ðü¿†€€€€€€€€€€€"&amp;ˆ‰‰Ž‹Ž†‹‰…š‰Ž†Œ‡ž‡ˆ‚ˆŒˆ‰"&amp;ˆˆŒ†‹ˆŽˆŽ…› ‰Œ…ŠŽˆˆŽ†ƒ…Ž‡ˆ"&amp;ˆŽ‰‹‚‚„‹ˆŽ‰„›ˆ‹‚‚„Š‚‹ˆˆŽ„„‚‚„„‚‹‰"&amp;†ŠŒˆˆŽ‡‰…›ˆŒ…‰Ž†ž‡…ˆ…‡ŒŠ"&lt;ETX&gt;
+      &lt;STX&gt;&amp;†ŽŠ‰‰Ž†‹ŠŽ†›‡ŽˆŠ… ‡……‡‹ˆŠ"&amp;…ŠŽˆ‰Ž…‚‚ŠŠ‚‹‡˜ƒ„‰‰Ž„ ˆ‹„‚‚…‡Š‰ŽŠŽ"&amp;†ŽŠˆ’ˆŽˆ‹Š…›‡Žˆ‰… ‡…ˆ…ŒˆŠ"&amp;†Ž ‹Œ†”†‹ˆŽŠŽ„›ˆŒ†‘…Ž†ŸˆŽƒŠƒŽ‡ŒŒ"&amp;‡ŠƒŠ‹‚‚„•ˆ‹ˆŽŠƒ›ˆ‹‚‚…ƒ„‚‹„¡ˆŽƒŠƒ„‚‹Šƒ‹‚"&amp;…Œˆ”†Ž‡ŒŒŽ†™ˆŒŠ…Œ…¡‡ƒŒƒ‡Œ "&lt;ETX&gt;
+      &lt;STX&gt;&amp;…Ž‹‰”…Ž†‹Ž‹‰Š†ŽŠ‡…ƒƒƒƒƒƒŽ‡‚‚‹ˆŒ"&amp;…Ž‹Žˆ•„Ž…‚‚ŠŽŠŠŠŽ„‰‚‚„Ž„ƒƒƒƒƒƒŽˆ‹ƒ‚Š‰ŽŠ"&amp;…Œˆ—ƒŽˆ‹Ž‹‘‡‘„˜‡ ˆŒ"&amp;…‚‚„‚ƒŒ†™ˆŽ„‚„‘ˆŒ‹¡š‹ˆ¬‡‚‚„‚‚"&amp;†‹ƒƒƒƒ‚‹‚‚„šƒ‹ˆƒƒƒŽˆ‹‚‚Š•‹š‹ˆ­„‚‹ƒƒƒƒ‚‹‚‚"&amp;…¦ˆ™Ž‡§‘ˆŒŒ“Œ™‡¬‡¦ "&lt;ETX&gt;
+      &lt;STX&gt;&amp;…¦‰—‚Ž†¦’†ŽŽƒ˜‡«ˆ§"&amp;…§ˆ—‚Ž…‚‚£‚‘Ž„ƒŽŠ‚„‚„Ž…‚©‰§"&amp;…¦ˆ¨ˆ¦’Œ‡‘žŠ›‡«ˆ¦"&amp;…¦†§ˆ§‘ˆŒœŠ›ˆ¬‡¦"&amp;†¤‚‚„¨ˆ§Žˆ‹ ‚‚Šƒ‚œ‰œˆ­„‚¤‚‚"&amp;…¦ˆ¨‡§‘ˆŒŠœ‡¬‡¦"&amp;…¦‰§†¤”†ŽŒ Š›‡«ˆ¦"&amp;…§ˆ§…‚‚¢•Ž„‰ƒ‚¡‰›ˆ©‰¦"&amp;…¦ˆ¨ˆ¤“‡Ž‹£‰œ‡«ˆ¦"&lt;ETX&gt;
+      &lt;STX&gt;&amp;†‘ƒ‘†§ˆ‚„’ˆŒŠ¢‰œˆ¬‡‚„‚"&amp;‡ƒƒ‚‹‚‚„—ˆƒƒƒŽ‘Žˆ‹‚‚…ƒ¢‰œˆ­„‚‹ƒƒƒ"&amp;†Ž‹Œˆ¨‡ŽŠ“ˆŒˆ¤ˆž‡¬‡ŒŠ"&amp;…Š‰§†‹Š” †Ž‰¥‡ž‡«ˆŠ"&amp;…ŠŽˆ‹›…‚‚Š‰•Ž„‰‚„‚…‚‚„‚„‚ˆ©‰Ž‰‹ƒ"&amp;†‰ˆ˜ˆ‹ŠŽ”‡Žˆ¦Š›‡«ˆŠŽ"&amp;ˆŽ‰Œ†‚–ˆŽˆ“ˆŒ…ƒ„…ƒ‹ˆ•‚•‡Œ‰ "&lt;ETX&gt;
+      &lt;STX&gt;&amp;ˆˆ‹‚‚„ƒ–ˆŽ„ƒŒ‚’Žˆ‹‚‚„Š‚‹š‹ˆ•ƒ•„‚‹ˆ"&amp;ˆˆŒˆƒ–‡†–ˆŒ†ŽŠŽ™‡”„”‡Œˆ"&amp;ŠƒŽ‰Ž…”†‹ƒ”–†Ž‡Š˜‡“‡‘ˆŽƒ"&amp;Šƒˆ‹ ƒ„”…‚‚Šƒƒ‚‹ƒ–Ž„ˆ…„Ž–Ž…‚‘ˆ‰‚"&amp;Š£†…”…¢˜‡ˆ‘‚„†……„Ž‡’ˆ‘‡¢"&amp;‹£…‡‘‡¡Š›ˆŒ…§†ˆ‰“„¢"&lt;ETX&gt;
+      &lt;STX&gt;&amp;¡„ˆ‘ƒƒ¢‰›ˆ‹‚‚„§ˆˆ‚†‚‘ƒ¡œ……"&amp;¡…ˆ‘…¢Š›ˆŒ†¦ˆž‡Œ„¡"&amp;Œ¡‡Ž†‘…¡‹›‡Žˆ¦… ‡‘Š…ƒœ‚Š‚"&amp;Œƒœˆ‹ƒ…ƒ…›ƒ‹‚˜ ƒ„‰¦„ …‚ŒƒŠˆœ›ƒƒƒƒ‚„ƒƒ‚„‚"&amp;‘œ†Š†›œ‡Ž‰¥‡ž‡‡œ"&amp;‚‚›…‰‡œŽœˆŒ†¢ˆˆŽ…›”‚„‚„‚„‚„‚„‚„‚„‚"&lt;ETX&gt;
+      &lt;STX&gt;&amp;‚ƒ–‚‚„Š‚Œˆ–‚‚œˆ‹‚‚…„¡‰œˆ„šƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ‚„‚"&amp;”—ˆ‹Ž†—“›‰ŒŠ¢ˆž‡ŽŽ‡—•„¢"'€€€¼ßïøý†€ï÷€ü¾Ÿ€ðý¾ß‡Àÿ¿€€ï÷û ÿ‡Àï÷û ß€€ü¾€ï÷»€€†ÿá°€Œ†ƒ€€€€"'€€€ˆ†Ç°˜„€Ãá€¸Œ†€€ ˜Œ†ƒÀñ˜€€Çãñ¸„€Ãá°˜€Žƒ€€¸œ€Çã €€Žïãñ˜œŽ‡€€€€"&amp;A®‚ƒ‚„‚©A‡"&lt;ETX&gt;
+      &lt;STX&gt;&amp;Bñ‡‚‚„‚„‚„‚„‚„‚„‚"&amp;Bå„‚„‚‚…ƒƒƒƒƒƒƒƒƒƒƒƒƒ‚"&amp;Bó†¢"&amp;Bâ„‚„‚ƒ‰„‚„‚Š‚„‚„‚"&amp;Bâ„ƒƒ‚ƒ‰„ƒƒƒ„„ƒƒƒƒƒ"&amp;Bñ‰"&amp;Bä‚„‚„‰„„‚„‚„‚„ ‚„‚"&amp;BÞƒƒƒƒƒ‚Šƒ‚„‚„‚„‚„‚„‚„‚—"&amp;Bë‚‹"&amp;Bá‚„‚„Ž…œ‚"&amp;‹ƒ•‚‚•ƒƒƒƒ‚–ƒ–„ƒƒƒ•‚Š‚‘‹‚•ƒƒƒƒƒ•‚„ƒƒƒ‚‹„ƒƒƒƒƒ‚„ƒƒƒƒ‚"&lt;ETX&gt;
+      &lt;STX&gt;&amp;©ƒ•‚ž•ƒƒƒ‚‚™›ƒƒƒ¡Ÿ•ƒƒƒ¡‚§Ž"&amp;šƒ“•ƒ‰‚–‚„ƒ›‚–‚„‚„’‚Š‚•ƒ‰‚–‚„ƒ¹‚„‚„ƒ‚„‚„‚„‚„‚„‚"&amp;šƒŠ‚ƒ’‚•ƒ‰‚—„ƒ›‚—…„‚‘‚ƒ…ƒ•ƒ ‰ƒ–„ƒœ—„ƒƒƒ‚ƒƒƒƒƒƒƒƒƒƒƒ‚"&amp;šƒ£–‚‰‚‚›‚¡”‹•ƒˆƒ‚À’–…"&amp;‚Š‚–‚–‚†¡˜‚¡ƒ•ƒ‰‚–†‚¡‚–‚„‚„”„‚„‚Š‚„"&lt;ETX&gt;
+      &lt;STX&gt;&amp;‚„‚„‚–‚–‚…‚¡‚–ƒ¡ƒ•ƒ‰‚–‚…‚¡‚œƒ•ƒƒƒƒ„ƒƒƒƒƒ‚„ƒƒ‚¢‚"&amp;ƒƒ‚œ‚–‚† ‚™¢‚•ƒ‰—‚†¿‚¢”"&amp; ‚„ƒ—–„‚„‚‚›‚¢—ƒƒƒ–„‚„‚œƒ–„‚–‚ „‚„‚—„‚„‚„‚"&amp;›‚ƒ‚„ƒ–‚–„ƒƒ‚–‚„ƒ›‚–‚„ƒƒ‚–ƒƒƒ–‚ƒƒƒƒ•‚„ƒ•‚„ƒ•ƒƒƒƒƒ‚–ƒ‚„‚„‚®‚"&amp; …‚˜šƒƒƒ–ƒƒƒ›‚–ƒƒƒ›ƒƒƒšƒƒƒ–ƒƒƒ•ƒ‚„–…‰•"&lt;ETX&gt;
+      &lt;STX&gt;&amp;ž‚¡‚–ƒƒƒ–‚ƒƒƒ˜‚›ƒƒƒ•‚„‚„‚–ƒƒƒ•ƒƒƒƒ—ƒƒ‚–‚„‚„•ƒ‚"&amp;ž‚„‚›‚–‚…‚–„‚„‚–ƒ›‚„ƒ•ƒ„„‚–‚…‚•‚„‚„‚–‚„ƒ„ƒƒƒƒƒ‚ƒ‚"&amp;Ÿ„œ‚ž ‚™ ¢‚•‚ŠŸ¿‚§"&amp; ‚„‚˜•ƒ‰‚‚›‚¢“Š‚•ƒ‰‚‚³‚„‚„‚„‚‚"&amp; ƒƒ‚—‚•ƒ‰‚œƒ›‚„‚‘‚‰ƒ•ƒ‰ƒ›ƒœ–‚„‚„‚„ƒ‚Šƒ‚„‚º‚"&amp; ‚ƒš•ƒ‰‚‚›‚¡”‹•‚‰ƒ ‚ÇŽ"&lt;ETX&gt;
+      &lt;STX&gt;&amp;£ƒ›‚–‚†¡˜‚¡ƒ•ƒ‰‚‚¡‚¨ŽÁ"'€€€€€‡€€€Œ€€àñ€€€Çã€€œŽ‡€€¸œ€€à±˜€€Àã€€ŽÇ€°œŽ€À°˜ŒÎÿã‘€€†ƒ€€€Œ"&amp;¢ƒœ‚–‚†–…ƒ‚’„ƒ„— „ƒ•ƒ‰—‚…‚–…„‚¬‚"'€€€€à€€€€‚€€€Žƒ€€¸œ€€àñ¸€€Ç£€€€Ž‡€€œ†€€ð¸€€Àã€€†ÃÁðØ¿†€€°€€€À"&lt;ETX&gt;
+      &lt;STX&gt;'€€€€ð€€€€ƒ€€ˆŽƒ€€¸œ€€àñ¸€€Ç£€€€Ž‡€€œ†€€ð¸€€Àã€€ŽÇãñ¸¾Žƒ°€€€Àã"&amp;Bå‹ˆŠµ"&amp;BÛ‚„‚„‚„‚„‚„‚„ˆŠ£‚„‚"&amp;BÛƒƒƒƒ‚„ƒƒƒƒƒƒ„„ƒ ‚„‚„ƒƒ‚"&amp;Bÿ‰"&amp;BØ‚„‚„‚Š‚„‚„‚ƒ‰„‚„‚—„‚„‚"&amp;BØƒƒƒƒƒƒ‚„ƒƒƒƒƒ‚Šƒƒƒƒƒ‚„‚„‚„ƒƒƒƒƒ"&amp;Bñ„„Š"&amp;BÛ‚„‚„‚…„„•„‚„‚„‚„‚Š‚„‚"&lt;ETX&gt;
+      &lt;STX&gt;&amp;BÛƒƒƒƒ‚„ƒƒƒ‚•„ƒƒƒƒƒƒƒ„„ƒƒƒ"&amp;Bóš"&amp;BÞ‚„‚Š‚„‚„‚„‚„…‚„‚„‚"&amp;BÞƒƒƒƒ‚„œ‚ƒƒƒƒƒƒƒƒ‚„ƒƒƒƒ‚"&amp;Bå‰ž "&amp;Bá‚„‚… ƒ‚„‚„‚„‚…„‚„‚"&amp; Báƒƒƒƒ„œƒ‚„‚„‚„‚„ƒƒƒƒ‚"&amp;Bí¡"&amp;Bä‚„¦…‹…„‚„‚"&amp;Bß„ƒƒ§ƒƒƒ‚„‚…„ƒƒ‚"&amp;Båƒ§…"&amp;Bç¨‚‚„‚„‚‚"&amp;BçƒŒ—‚‚„ƒƒƒŠ„‚"&amp;BêŒƒš„„"&amp;Bêƒ…ƒ ‚¤‰‚"&lt;ETX&gt;
+      &lt;STX&gt;&amp;Bêƒ‚„ƒƒ‚¢ƒ‚„ƒ„"&amp;Bð‚…¥"&amp;Bî…„£‚„‚…"&amp;Bî„ƒ‚£‚‚„‚"&amp;Bô©"&amp;Bõ…¢„"&amp;Bö‚„„œ„"&amp;Bü "&amp;C€ƒ………„"&amp;C…‚„‚„‚„‚"&lt;ETX&gt;
+      &lt;STX&gt;(&lt;ETX&gt;
+      &lt;STX&gt;&lt;RS&gt;1&lt;US&gt;1&lt;ETB&gt;&lt;ETX&gt;
+    </texto>
+  </etiqueta>
+
+  <etiqueta id="ContenedorIPL_DIPO">
+    <texto>
+      &lt;STX&gt;R&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;C&lt;SI&gt;W748&lt;SI&gt;h&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;P&lt;ETX&gt;
+      &lt;STX&gt;F*&lt;ETX&gt;
+      &lt;STX&gt;B1;f3;o251,35;c6;w4;h117;d3,pCONTENEDOR&lt;ETX&gt;
+      &lt;STX&gt;H2;f3;o135,206;c26;b0;h14;w14;d3,pCONTENEDOR&lt;ETX&gt;
+      &lt;STX&gt;H3;f3;o392,35;c26;b0;h17;w17;d3,pRUTA&lt;ETX&gt;
+      &lt;STX&gt;H4;f3;o352,35;c26;b0;h17;w17;d3,pIDCLIENTE&lt;ETX&gt;
+      &lt;STX&gt;H5;f3;o392,226;c26;b0;h17;w17;d3,pDESTINO&lt;ETX&gt;
+      &lt;STX&gt;H6;f3;o392,545;c26;b0;h17;w17;d3,pPEDIDO&lt;ETX&gt;
+      &lt;STX&gt;H7;f3;o312,35;c26;b0;h24;w17;d3,pCLIENTE&lt;ETX&gt;
+      &lt;STX&gt;H8;f3;o99,44;c26;b0;h13;w13;d3,FRIO&lt;ETX&gt;
+      &lt;STX&gt;H9;f3;o99,116;c26;b0;h13;w13;d3,GILLETE&lt;ETX&gt;
+      &lt;STX&gt;H10;f3;o99,236;c26;b0;h13;w13;d3,CAJAS&lt;ETX&gt;
+      &lt;STX&gt;H11;f3;o99,323;c26;b0;h13;w13;d3,GLAXO&lt;ETX&gt;
+      &lt;STX&gt;H12;f3;o99,419;c26;b0;h13;w13;d3,UNIDADES&lt;ETX&gt;
+      &lt;STX&gt;L13;f1;o72,532;l506;w2&lt;ETX&gt;
+      &lt;STX&gt;L14;f0;o31,103;l68;w2&lt;ETX&gt;
+      &lt;STX&gt;L15;f0;o31,220;l68;w2&lt;ETX&gt;
+      &lt;STX&gt;H16;f3;o67,60;c26;b0;h14;w14;d3,pFRI&lt;ETX&gt;
+      &lt;STX&gt;H17;f3;o67,148;c26;b0;h14;w14;d3,pGIL&lt;ETX&gt;
+      &lt;STX&gt;H18;f3;o67,260;c26;b0;h14;w14;d3,pCAJ&lt;ETX&gt;
+      &lt;STX&gt;H19;f3;o67,347;c26;b0;h14;w14;d3,pGLA&lt;ETX&gt;
+      &lt;STX&gt;H20;f3;o67,459;c26;b0;h14;w14;d3,pUNI&lt;ETX&gt;
+      &lt;STX&gt;H21;f3;o186,572;c26;b0;h14;w12;d3,Bultos + Cajas&lt;ETX&gt;
+      &lt;STX&gt;L22;f0;o310,536;l76;w2&lt;ETX&gt;
+      &lt;STX&gt;H23;f3;o352,545;c26;b0;h17;w10;d3,pFECHA&lt;ETX&gt;
+      &lt;STX&gt;L24;f1;o350,777;l763;w2&lt;ETX&gt;
+      &lt;STX&gt;L25;f1;o310,777;l763;w2&lt;ETX&gt;
+      &lt;STX&gt;L26;f1;o254,777;l763;w2&lt;ETX&gt;
+      &lt;STX&gt;L27;f0;o31,315;l68;w2&lt;ETX&gt;
+      &lt;STX&gt;L28;f0;o31,405;l68;w2&lt;ETX&gt;
+      &lt;STX&gt;D0&lt;ETX&gt;
+      &lt;STX&gt;R&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;E*,1&lt;CAN&gt;&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;g0&lt;ETX&gt;
+      &lt;STX&gt;!˜F‘&amp;„Eø"&amp;Eý"&amp;‚Eøƒ"%‚Eû‚"%‚AöCõ‚"%‚AôCø‚"%‚Aó‚Cõƒ‚"%‚Aó‚Cö‚‚"%‚Aó‚C÷‚Ž‚"$‚%‚ŽAÎ—‚C÷‚Ž‚"%‚ŒAÑ–‚C÷‚Ž‚"%‚‹‚AÎƒ•‚C÷‚Ž‚"%‚‹‚AÏ‚•‚C÷‚Ž‚"%‚‹‚AÐ‚”‚C÷‚Ž‚"$º%‚‹‚AÐ‚”‚Cö‚‚"%‚‹‚AÐ‚”‚Cõƒ‚"%‚‹‚AÐ‚•ƒCñ„‚"%‚‹‚AÐ‚—Cõ‘‚"%‚‹‚AÐ‚™Cñ“‚"%‚‹‚AÐ‚D‚"$²&lt;ETX&gt;
+      &lt;STX&gt;%‚‹‚AÏ‚Dž‚"%‚‹‚AÎƒDž‚"%‚ŒƒAÊ„DŸ‚"%‚ŽAÎD ‚"%‚AÊD¢‚"%‚Eü‚"$Aå%‚Eû‚"$&amp;‚Eøƒ"&amp;„Eô…"&amp;„Eø"&amp;†Eô"&lt;ETX&gt;
+      &lt;STX&gt;(&lt;ETX&gt;
+      &lt;STX&gt;&lt;RS&gt;1&lt;US&gt;1&lt;ETB&gt;&lt;ETX&gt;
+    </texto>
+  </etiqueta>
+
+  <etiqueta id="ContenedorIPL_DIPO_HANSELL">
+    <texto>
+      &lt;STX&gt;R&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;C&lt;SI&gt;W1202&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;P&lt;ETX&gt;
+      &lt;STX&gt;E6;F6&lt;ETX&gt;
+      &lt;STX&gt;L1;f0;o185,119;l153;w11&lt;ETX&gt;
+      &lt;STX&gt;L2;f0;o185,137;l153;w5&lt;ETX&gt;
+      &lt;STX&gt;L3;f0;o185,155;l153;w17&lt;ETX&gt;
+      &lt;STX&gt;L4;f0;o185,185;l153;w11&lt;ETX&gt;
+      &lt;STX&gt;L5;f0;o185,209;l153;w17&lt;ETX&gt;
+      &lt;STX&gt;L6;f0;o185,233;l153;w5&lt;ETX&gt;
+      &lt;STX&gt;L7;f0;o185,251;l153;w11&lt;ETX&gt;
+      &lt;STX&gt;L8;f0;o185,269;l153;w11&lt;ETX&gt;
+      &lt;STX&gt;L9;f0;o185,293;l153;w11&lt;ETX&gt;
+      &lt;STX&gt;L10;f0;o185,317;l153;w5&lt;ETX&gt;
+      &lt;STX&gt;L11;f0;o185,335;l153;w11&lt;ETX&gt;
+      &lt;STX&gt;L12;f0;o185,365;l153;w5&lt;ETX&gt;
+      &lt;STX&gt;L13;f0;o185,383;l153;w23&lt;ETX&gt;
+      &lt;STX&gt;L14;f0;o185,413;l153;w17&lt;ETX&gt;
+      &lt;STX&gt;L15;f0;o185,437;l153;w5&lt;ETX&gt;
+      &lt;STX&gt;L16;f0;o185,449;l153;w5&lt;ETX&gt;
+      &lt;STX&gt;L17;f0;o185,473;l153;w5&lt;ETX&gt;
+      &lt;STX&gt;L18;f0;o185,485;l153;w11&lt;ETX&gt;
+      &lt;STX&gt;L19;f0;o185,515;l153;w5&lt;ETX&gt;
+      &lt;STX&gt;L20;f0;o185,527;l153;w5&lt;ETX&gt;
+      &lt;STX&gt;L21;f0;o185,551;l153;w11&lt;ETX&gt;
+      &lt;STX&gt;L22;f0;o185,581;l153;w5&lt;ETX&gt;
+      &lt;STX&gt;L23;f0;o185,593;l153;w23&lt;ETX&gt;
+      &lt;STX&gt;L24;f0;o185,623;l153;w17&lt;ETX&gt;
+      &lt;STX&gt;L25;f0;o185,647;l153;w11&lt;ETX&gt;
+      &lt;STX&gt;L26;f0;o185,671;l153;w17&lt;ETX&gt;
+      &lt;STX&gt;L27;f0;o185,695;l153;w5&lt;ETX&gt;
+      &lt;STX&gt;L28;f0;o185,713;l153;w11&lt;ETX&gt;
+      &lt;STX&gt;L29;f0;o185,731;l153;w17&lt;ETX&gt;
+      &lt;STX&gt;L30;f0;o185,767;l153;w5&lt;ETX&gt;
+      &lt;STX&gt;L31;f0;o185,779;l153;w11&lt;ETX&gt;
+      &lt;STX&gt;L32;f0;o185,809;l153;w17&lt;ETX&gt;
+      &lt;STX&gt;L33;f0;o185,833;l153;w5&lt;ETX&gt;
+      &lt;STX&gt;L34;f0;o185,845;l153;w11&lt;ETX&gt;
+      &lt;STX&gt;H35;f3;o187,338;c61;b0;h21;w21;d3,pCONTENEDOR&lt;ETX&gt;
+      &lt;STX&gt;L36;f1;o73,969;l955;w4&lt;ETX&gt;
+      &lt;STX&gt;H37;f3;o133,30;c62;b0;h22;w22;d3,FRIO  GILLETE  CAJAS  GLAXO  UNDS  MDL&lt;ETX&gt;
+      &lt;STX&gt;L38;f0;o21,145;l111;w4&lt;ETX&gt;
+      &lt;STX&gt;L39;f0;o21,358;l111;w4&lt;ETX&gt;
+      &lt;STX&gt;L40;f0;o21,523;l111;w4&lt;ETX&gt;
+      &lt;STX&gt;L41;f0;o21,697;l111;w4&lt;ETX&gt;
+      &lt;STX&gt;L42;f0;o21,850;l111;w4&lt;ETX&gt;
+      &lt;STX&gt;H43;f3;o571,38;c62;b0;h22;w22;d3,pRUTA&lt;ETX&gt;
+      &lt;STX&gt;H44;f3;o489,38;c62;b0;h22;w22;d3,pIDCLIENTE&lt;ETX&gt;
+      &lt;STX&gt;H45;f3;o414,38;c62;b0;h22;w22;d3,pCLIENTE&lt;ETX&gt;
+      &lt;STX&gt;H46;f3;o571,338;c62;b0;h22;w22;d3,pDESTINO&lt;ETX&gt;
+      &lt;STX&gt;H47;f3;o571,863;c62;b0;h22;w22;d3,pPEDIDO&lt;ETX&gt;
+      &lt;STX&gt;H48;f3;o489,838;c62;b0;h22;w17;d3,pFECHA&lt;ETX&gt;
+      &lt;STX&gt;W49;f0;o348,10;h1180;l79;w4&lt;ETX&gt;
+      &lt;STX&gt;W50;f0;o423,10;h1180;l79;w4&lt;ETX&gt;
+      &lt;STX&gt;L51;f0;o425,785;l168;w4&lt;ETX&gt;
+      &lt;STX&gt;H52;f3;o241,1014;c62;b0;h15;w10;d3,Bultos + Cajas&lt;ETX&gt;
+      &lt;STX&gt;H53;f3;o79,78;c62;b0;h22;w22;d3,pFRI&lt;ETX&gt;
+      &lt;STX&gt;H54;f3;o79,228;c62;b0;h22;w22;d3,pGIL&lt;ETX&gt;
+      &lt;STX&gt;H55;f3;o79,414;c62;b0;h22;w22;d3,pCAJ&lt;ETX&gt;
+      &lt;STX&gt;H56;f3;o79,765;c62;b0;h22;w22;d3,pUNI&lt;ETX&gt;
+      &lt;STX&gt;H57;f3;o79,594;c62;b0;h22;w22;d3,pGLA&lt;ETX&gt;
+      &lt;STX&gt;H58;f3;o79,900;c62;b0;h22;w22;d3,pMDL&lt;ETX&gt;
+      &lt;STX&gt;D0&lt;ETX&gt;
+      &lt;STX&gt;R&lt;ETX&gt;
+      &lt;STX&gt;&lt;SI&gt;l13&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;E6,1&lt;CAN&gt;&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;g0&lt;ETX&gt;
+      &lt;STX&gt;!‡IÃ&amp;¢Hß"&amp;œHì"&amp;™Hò"&amp;—Hö"&amp;•HÜ"&amp;”‰Hê‰"&amp;’ˆHðˆ"&amp;‘‡Hô‡"&amp;ˆHöˆ"&amp;Ž‡Hú‡"&amp;‡˜AƒGá‡"&amp;Œ†”AGÜ†"&amp;Œ…’A–GÚ…"&amp;‹…‘AšGÙ…"&amp;Š…A€¿G€™…"&amp;Š…‰AŽ‰¸G’…"&amp;‰…ŽˆA”ˆ³G“…"&amp;ˆ…Ž‡A˜‡°G—…"&amp;ˆ…ŒˆAšˆ¬Fý…"&amp;‡…Œ‡Až‡ª‰G‹‰…"&amp;‡„Œ‡A ‡§ˆG‘ˆŒ„"&amp;†…‹†A¤†¥‡G•‡‹…"&amp;†„Œ…A¦…£ˆG—ˆŠ„"&lt;ETX&gt;
+      &lt;STX&gt;&amp;†„‹…A¨…¡‡G›‡‰„"&amp;……Š…Aª…Ÿ‡G‡ˆ…"&amp;…„‹…Aª…ž†G¡†ˆ„"&amp;…„Š…A¬……G£…ˆ„"&amp;…„‰…A®…›…G¥…‡„"&amp;…„‰…A®…š…G§…†„"&amp;…„ˆ…A°…™…G§…†„"&amp;„…ˆ„A²„˜…G©……„"&amp;„…‡…A²…–…G«……„"&amp;„„ˆ„A´„–…G«……„"&amp;„„ˆ„A´„•…G­…„„"&amp;„„‡…A´…”„G¯„„„"&amp;„„‡„A¶„“…G¯…ƒ„"&amp;„„‡„A¶„“„G±„ƒ„"$&amp;„„‡„A¶„’…G±…‚„"&lt;ETX&gt;
+      &lt;STX&gt;&amp;„„‡„A¶„’„G³„‚„"&amp;„„†…A¶„’„G³„‚„"&amp;„„†…A·„‘„G³„‚„"&amp;„„†„A¸„‘„G³„‚„"$&amp;„„†„A¸„…G³„‚„"&amp;„„†„A¸„…G´„„"&amp;„„†„A¸„„Gµ„„"$²&amp;„„†„A¸„…G´„„"&amp;„„†„A¸„…G³„‚„"&amp;„„†„A¸„‘„G³„‚„"$…&amp;„„†„A¸„‘…G±…‚„"&amp;„„†„A¸„’„G±„ƒ„"$&amp;„„†„A¸„’…G¯…ƒ„"&amp;„„†„A¸„“„G¯„„„"&amp;„„†„A¸„“…G­…„„"&lt;ETX&gt;
+      &lt;STX&gt;&amp;„„†„A¸„”…G¬„…„"&amp;„„†„A¸„”…G«……„"&amp;„„†„A¸„•…Gª„†„"&amp;„„†„A¸„–…G¨…†„"&amp;„„†„A¸„–…G§…‡„"&amp;„„†„A¸„—…G¥†‡„"&amp;„„†„A¸„˜…G£†ˆ„"&amp;„„†„A¸„˜†G¡†‰„"&amp;„„†„A¸„™‡Gž†Š„"&amp;„„†„A¸„š‡Gœ†‹„"&amp;„„†„A¸„›ˆG˜‡Œ„"&amp;„„†„A¸„‡G•ˆ„"&amp;„„†„A¸„žˆG‘‰Ž„"&amp;„„†„A¸„ ‰G‹Š„"&amp;„„†„A¸„¡Fý’„"&lt;ETX&gt;
+      &lt;STX&gt;&amp;„„†„A¸„£G—”„"&amp;„„†„A¸„¥G“–„"&amp;„„†„A¸„¨G™„"&amp;„„†„A¸„°Fý¡„"&amp;„„†„A¸„GÎ„"$¦&amp;„„†…A·„GÎ„"&amp;„„†…A¶„GÏ„"&amp;„„‡„A¶„GÏ„"$…&amp;„„‡…A´…GÏ„"&amp;„„ˆ„A´„GÐ„"$&amp;„„ˆ…A²…GÐ„"&amp;„„‰„A²„GÑ„"&amp;„„‰…A°…GÑ„"&amp;„„Š…A¯„GÒ„"&amp;„„Š…A®…GÒ„"&amp;„„‹…A­„GÓ„"&amp;„„Œ…A«…GÓ„"&amp;„„Œ…Aª…GÔ„"&amp;„„…A¨†GÔ„"&lt;ETX&gt;
+      &lt;STX&gt;&amp;„„Ž…A¦†GÕ„"&amp;„„Ž†A¤†GÖ„"&amp;„„‡A¡†G×„"&amp;„„‡AŸ†GØ„"&amp;„„‘ˆA›‡GÙ„"&amp;„„“‡A˜ˆGÚ„"&amp;„„”ˆA”‰GÛ„"&amp;„„–‰AŽŠGÝ„"&amp;„„—A€Gß„"&amp;„„™AšGá„"&amp;„„›A–Gã„"&amp;„„žAGæ„"&amp;„„¦A€Gî„"&amp;„„I”„"$BÞ&amp;„…I“„"&amp;„…I’„"&amp;…„I’„"$…&amp;……I…"&amp;†„I„"$&amp;†…IŽ…"&amp;‡„IŽ„"&amp;‡…IŒ…"&amp;ˆ…I‹„"&amp;ˆ…IŠ…"&amp;‰…I‰„"&amp;Š…I‡…"&lt;ETX&gt;
+      &lt;STX&gt;&amp;Š…I†…"&amp;‹…I„†"&amp;Œ…I‚†"&amp;Œ†I€†"&amp;‡Hý†"&amp;Ž‡Hû†"&amp;ˆH÷‡"&amp;‘‡Hôˆ"&amp;’ˆHð‰"&amp;”‰HêŠ"&amp;•HÜ"&amp;—Hö"&amp;™Hò"&amp;œHì"&amp;¤HÜ"&lt;ETX&gt;
+      &lt;STX&gt;(&lt;ETX&gt;
+      &lt;STX&gt;&lt;RS&gt;1&lt;US&gt;1&lt;ETB&gt;&lt;ETX&gt;
+      &lt;STX&gt;&lt;ESC&gt;P&lt;ETX&gt;
+      &lt;STX&gt;E6&lt;ETX&gt;
+      &lt;STX&gt;R&lt;ETX&gt;
+    </texto>
+  </etiqueta>
+
+  <etiqueta id="ZPL_ALBARAN">
+     <texto>
+      ^XA 
+      ^FO130,85
+      ^BY2,1.7^B3N,N,210,N,N^FDpCONTENEDOR^FS 
+      ^FT210,355
+      ^A0N,44,45^FDpCONTENEDOR^FS
+      ^FT20,50
+      ^A0N,29,30^FDUbicacion:^FS
+      ^FT540,390
+      ^A0N,20,21^FDRTWMS^FS
+      ^Xz
+     </texto>
+  </etiqueta>
+
+  <etiqueta id="Contenedor_ZPL_ESTACION_IMPRESION">
+    <texto>
+      ^XA
+      ^FO110,224
+      ^BY2,2.5^B3N,N,94,N,N^FDpCONTENEDOR^FS
+      ^FT150,354
+      ^CI0
+      ^A0N,39,54^FDpCONTENEDOR^FS
+      ^FO32,23
+      ^GB780,380,4^FS
+      ^FO32,87
+      ^GB778,0,2^FS
+      ^FO29,119
+      ^GB625,0,2^FS
+      ^FT50,80^A0N,62,62^FDpPEDIDO^FS
+      ^FT38,111^A0N,23,32^FDCLIENTE:^FS
+      ^FT180,111^A0N,25,34^FDpCLIENTE^FS
+      ^FT38,388^A0N,23,20^FDpFECHA^FS
+      ^FT555,388^A0N,23,24^FDeCart^FS
+      ^FO29,153
+      ^GB625,0,2^FS
+      ^FO29,188
+      ^GB625,0,2^FS
+      ^FT38,144^A0N,23,32^FDARTICULOS:^FS
+      ^FT215,144^A0N,25,30^FDpART^FS
+      ^FT419,144^A0N,23,32^FDUNIDADES:^FS
+      ^FT577,144^A0N,25,34^FDpCANTIDAD^FS
+      ^FO404,121
+      ^GB0,32,2^FS
+      ^FO653,88
+      ^GB0,315,2^FS
+      ^FT215,179^A0N,25,34^FDpCHEQ^FS
+      ^FT760,385^A0B,95,150^FDpFACT^FS
+      ^FT38,179^A0N,23,33^FDPREPARADO:^FS
+      ^FT419,179^A0N,23,32^FDpMUELLE^FS
+      ^PQ1,0,1,Y
+      ^XZ
+    </texto>
+  </etiqueta>
+
+</main>
